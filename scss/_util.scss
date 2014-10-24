@@ -1,0 +1,64 @@
+
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin clip-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+@mixin reset-headline($font-size: 16px) {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: $font-size;
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset-a {
+  text-decoration: none;
+}
+
+@mixin reset-p {
+  margin: 0;
+}
+
+@mixin reset-em {
+  font-style: normal;
+}
+
+@mixin reset-i {
+  font-style: normal;
+}
+
+@mixin font-color($color) {
+  color: $color;
+  a {
+    color: $color;
+  }
+}
+

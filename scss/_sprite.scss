@@ -1,0 +1,72 @@
+i.icon {
+  display: inline-block;
+  font-style: normal;
+}
+
+[class*="sub-nav-sprite"] {
+  background: url(../images/csg-53ed385749edd.png) no-repeat top left;
+}
+.sub-nav-sprite-canyin{ background-position: 0 0; width: 40px; height: 40px; }
+.sub-nav-sprite-fuzhuang{ background-position: 0 -90px; width: 40px; height: 40px; }
+.sub-nav-sprite-huanbao{ background-position: 0 -180px; width: 40px; height: 40px; }
+.sub-nav-sprite-jiaju{ background-position: 0 -270px; width: 40px; height: 40px; }
+.sub-nav-sprite-jiaoyu{ background-position: 0 -360px; width: 40px; height: 40px; }
+.sub-nav-sprite-lingshi{ background-position: 0 -450px; width: 40px; height: 40px; }
+.sub-nav-sprite-meirong{ background-position: 0 -540px; width: 40px; height: 40px; }
+.sub-nav-sprite-qiche{ background-position: 0 -630px; width: 40px; height: 40px; }
+.sub-nav-sprite-shaokao{ background-position: 0 -720px; width: 40px; height: 40px; }
+.sub-nav-sprite-shipin{ background-position: 0 -810px; width: 40px; height: 40px; }
+.sub-nav-sprite-tese{ background-position: 0 -900px; width: 40px; height: 40px; }
+.sub-nav-sprite-wangluo{ background-position: 0 -990px; width: 40px; height: 40px; }
+.sub-nav-sprite-xiaochi{ background-position: 0 -1080px; width: 40px; height: 40px; }
+.sub-nav-sprite-xican{ background-position: 0 -1170px; width: 40px; height: 40px; }
+.sub-nav-sprite-xinrui{ background-position: 0 -1260px; width: 40px; height: 40px; }
+.sub-nav-sprite-zhongcan{ background-position: 0 -1350px; width: 40px; height: 40px; }
+
+[class*="panel-header-sprite"] {
+  background: url(../images/csg-53ed38a133277.png) no-repeat top left;
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
+}
+
+.panel-header-sprite-cyxc{ background-position: 0 0; width: 20px; height: 20px; }
+.panel-header-sprite-fzxm{ background-position: 0 -70px; width: 20px; height: 20px; }
+.panel-header-sprite-hbjx{ background-position: 0 -140px; width: 20px; height: 20px; }
+.panel-header-sprite-jjjc{ background-position: 0 -210px; width: 20px; height: 20px; }
+.panel-header-sprite-jptj{ background-position: 0 -280px; width: 20px; height: 20px; }
+.panel-header-sprite-jpxm{ background-position: 0 -350px; width: 20px; height: 20px; }
+.panel-header-sprite-jywl{ background-position: 0 -420px; width: 20px; height: 20px; }
+.panel-header-sprite-lzh{ background-position: 0 -490px; width: 20px; height: 20px; }
+.panel-header-sprite-money{ background-position: 0 -560px; width: 20px; height: 20px; }
+.panel-header-sprite-mrsp{ background-position: 0 -630px; width: 20px; height: 20px; }
+.panel-header-sprite-mxdy{ background-position: 0 -700px; width: 20px; height: 20px; }
+.panel-header-sprite-pptj{ background-position: 0 -770px; width: 20px; height: 20px; }
+.panel-header-sprite-rqtj{ background-position: 0 -840px; width: 20px; height: 20px; }
+.panel-header-sprite-zxtj{ background-position: 0 -910px; width: 20px; height: 20px; }
+
+[class*="footer-nav-sprite"] {
+  display: block !important;
+  background: url(../images/csg-53ed6a12721df.png) no-repeat top left;
+}
+
+.footer-nav-sprite-1-5wan{ background-position: 0 0; width: 160px; height: 130px; }
+.footer-nav-sprite-canyin{ background-position: 0 -180px; width: 120px; height: 64px; }
+.footer-nav-sprite-fuzhuang{ background-position: 0 -294px; width: 120px; height: 64px; }
+.footer-nav-sprite-huanbao{ background-position: 0 -408px; width: 120px; height: 60px; }
+.footer-nav-sprite-jiaju{ background-position: 0 -518px; width: 120px; height: 64px; }
+.footer-nav-sprite-jiaoyu{ background-position: 0 -632px; width: 120px; height: 65px; }
+.footer-nav-sprite-meirong{ background-position: 0 -747px; width: 120px; height: 66px; }
+.footer-nav-sprite-paihang{ background-position: 0 -863px; width: 160px; height: 130px; }
+.footer-nav-sprite-shipinlipin{ background-position: 0 -1043px; width: 120px; height: 64px; }
+.footer-nav-sprite-shouye{ background-position: 0 -1157px; width: 140px; height: 130px; }
+.footer-nav-sprite-tesechuangxin{ background-position: 0 -1337px; width: 120px; height: 64px; }
+.footer-nav-sprite-weixin{ background-position: 0 -1451px; width: 190px; height: 130px; }
+
+[class*=helper-sprite] {
+  background: url(../images/csg-53edac91c50bb.png) no-repeat top left;
+}
+
+.helper-sprite-dropdown{ background-position: 0 0; width: 9px; height: 7px; }
+.helper-sprite-menu{ background-position: 0 -57px; width: 14px; height: 10px; }
+.helper-sprite-search{ background-position: 0 -117px; width: 13px; height: 12px; }

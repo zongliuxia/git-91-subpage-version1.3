@@ -1,0 +1,46 @@
+$light-gray: #f2f2f2;
+$dark-red: #ed2126;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+}
+
+html, body {
+  background-color: #fff8eb;
+}
+
+body {
+  font-family: 'microsoft yahei', sans-serif;
+  font-size: 12px;
+  @include font-color(#666666);
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: red;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.clip-text {
+  @include clip-text;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+[class*="row"] {
+  @include clearfix;
+}
