@@ -995,7 +995,7 @@ i.icon {
 }
 .wq-section-01 .wq-section-01-body-nav-right div {
   /* margin: 10px 0; */
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   color: #666666;
   font-size: 12px;
 }
@@ -1016,22 +1016,61 @@ i.icon {
 /* wq-section-02*/
 .wq-section-02 {
   /* wq-section-02-left*/
+  padding-bottom: 35px;
+  min-height: 1220px;
+  background-color: #fff;
   /* wq-section-02-right*/
 }
 .wq-section-02 .wq-section-02-left {
+  margin-top: 20px;
+  float: left;
   width: 220px;
+  height: 1170px;
   padding: 0px 20px;
   border: 1px solid #e0e0e0;
+  /* search box*/
   /* leftside-panel*/
+  /* part-4*/
+  /* .part-5*/
+}
+.wq-section-02 .wq-section-02-left .search form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #ff4a00;
+}
+.wq-section-02 .wq-section-02-left .search input {
+  width: 70%;
+  border: 1px solid #ff4a00;
+  background-color: #fff8eb;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  height: 30px;
+  padding-left: 5px;
+}
+.wq-section-02 .wq-section-02-left .search button {
+  width: 25%;
+  outline: 0;
+  border: 0px;
+  background-color: transparent;
+  color: #fff;
 }
 .wq-section-02 .wq-section-02-left .leftside-panel {
-  margin: 10px 0px;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+  background: url(../images/left_panel_bottom_line.png) no-repeat center bottom;
+  /* reset p*/
   /* soo-title*/
   /* soo-body*/
+}
+.wq-section-02 .wq-section-02-left .leftside-panel p {
+  margin: 0px;
 }
 .wq-section-02 .wq-section-02-left .leftside-panel .soo-title {
   font-size: 14px;
   color: #ff4a00;
+  margin: 3px 0px;
 }
 .wq-section-02 .wq-section-02-left .leftside-panel .soo-body {
   line-height: 25px;
@@ -1041,8 +1080,91 @@ i.icon {
   color: #666666;
   font-size: 12px;
 }
+.wq-section-02 .wq-section-02-left .leftside-panel .so-hot {
+  font-size: 12px;
+  color: #ff4a00;
+}
+.wq-section-02 .wq-section-02-left .part-4 a.text-block {
+  display: inline-block;
+  /* height: 19px; */
+  background-color: #ff4a00;
+  padding: 0px 8px;
+  font-size: 14px;
+  margin: 3px 0px;
+  color: #ffffff;
+}
+.wq-section-02 .wq-section-02-left .part-5 {
+  background: none;
+}
+.wq-section-02 .wq-section-02-left .part-5 .news a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .wq-section-02 .wq-section-02-right {
+  /**/
   width: 965px;
+  float: right;
+}
+.wq-section-02 .wq-section-02-right .aoo-title {
+  font-size: 14px;
+  font-weight: bolder;
+  border-bottom: 2px solid #ff4a00;
+}
+.wq-section-02 .wq-section-02-right .aoo-title .total {
+  float: right;
+}
+.wq-section-02 .wq-section-02-right .aoo-title b {
+  color: red;
+}
+.wq-section-02 .wq-section-02-right .aoo-body {
+  margin: -5px;
+  margin-top: 7px;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item {
+  display: block;
+  width: 151px;
+  height: 180px;
+  float: left;
+  /* background-color: red; */
+  margin: 7px 5px;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item:hover {
+  text-decoration: none;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item:hover .notice-num {
+  background: url(../images/red_heart_shape.png) no-repeat left center;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item:hover .consult-link {
+  padding-left: 10px;
+  /* padding-right: 1px; */
+  transition: 300ms;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item .boo-title {
+  margin: 0px 3px;
+  font-weight: bolder;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item p {
+  margin: 0px 5px;
+  margin-bottom: 5px;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item .notice-num {
+  margin-left: 7px;
+  background: url(../images/heart_shape.png) no-repeat left center;
+  padding-left: 20px;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item .consult-link {
+  transition: 300ms;
+  padding: 4px 6px;
+  margin: 0px 5px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #ff4a00;
+}
+.wq-section-02 .wq-section-02-right .aoo-body .list-item .consult-link:hover {
+  text-decoration: none;
 }
 
 /* wq-section-03*/
