@@ -25,7 +25,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: red;
+  color: #ff4a00;
 }
 
 .clearfix {
