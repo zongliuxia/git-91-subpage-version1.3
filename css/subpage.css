@@ -984,6 +984,7 @@ i.icon {
 .wq-section-01 .wq-section-01-body-nav-left span {
   display: block;
   margin-bottom: 15px;
+  color: #000;
 }
 .wq-section-01 .wq-section-01-body-nav-left span:nth-child(3n) {
   margin-bottom: 0;
