@@ -1012,27 +1012,33 @@ i.icon {
 .wq-section-01 .wq-section-01-body-nav-right a {
   padding: 0 20px;
 }
-
-/* wq-section-02*/
 .wq-section-02 {
-  /* wq-section-02-left*/
   margin-bottom: 15px;
-  padding-bottom: 35px;
-  min-height: 1220px;
+  padding-bottom: 15px;
   background-color: #fff;
-  /* wq-section-02-right*/
+  position: relative;
+}
+.wq-section-02-left.fixed {
+    position: fixed;
+    top: 0;
+    background: white;
+}
+.wq-section-02-left.absolute{
+  position:absolute;
+  bottom:15px;
+  top:auto;
 }
 .wq-section-02 .wq-section-02-left {
   margin-top: 20px;
   float: left;
   width: 220px;
-  height: 1170px;
+  height: auto;
   padding: 0px 20px;
   border: 1px solid #e0e0e0;
-  /* search box*/
-  /* leftside-panel*/
-  /* part-4*/
-  /* .part-5*/
+
+}
+.fixed{
+  width: 178px;
 }
 .wq-section-02 .wq-section-02-left .search form {
   margin-top: 10px;
@@ -1061,9 +1067,7 @@ i.icon {
   padding-bottom: 10px;
   margin-bottom: 8px;
   background: url(../images/left_panel_bottom_line.png) no-repeat center bottom;
-  /* reset p*/
-  /* soo-title*/
-  /* soo-body*/
+
 }
 .wq-section-02 .wq-section-02-left .leftside-panel p {
   margin: 0px;
@@ -1108,6 +1112,8 @@ i.icon {
   /**/
   width: 965px;
   float: right;
+  height:auto;
+  overflow: hidden;
 }
 .wq-section-02 .wq-section-02-right .aoo-title {
   font-size: 14px;
@@ -1131,6 +1137,21 @@ i.icon {
   float: left;
   /* background-color: red; */
   margin: 7px 5px;
+}
+.shadow-text{
+position:relative;
+/* text-align: right; */
+}
+.shadow-text span{
+  position: absolute;
+  bottom: 2px;
+
+  width: 100%;
+  text-align: right;
+  background-color: rgba(114, 109, 109, 0.32);
+  color: #fff;
+  padding: 2px 0;
+  letter-spacing: 2px;
 }
 .wq-section-02 .wq-section-02-right .aoo-body .list-item:hover {
   text-decoration: none;

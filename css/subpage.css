@@ -1012,17 +1012,21 @@ i.icon {
 .wq-section-01 .wq-section-01-body-nav-right a {
   padding: 0 20px;
 }
-
-/* wq-section-02*/
 .wq-section-02 {
-  /* wq-section-02*/
   margin-bottom: 15px;
-  padding-bottom: 35px;
-  /* min-height: 1300px; */
-  height: 1640px;
+  padding-bottom: 15px;
   background-color: #fff;
   position: relative;
-  /* wq-section-02-right*/
+}
+.wq-section-02-left.fixed {
+    position: fixed;
+    top: 0;
+    background: white;
+}
+.wq-section-02-left.absolute{
+  position:absolute;
+  bottom:15px;
+  top:auto;
 }
 .wq-section-02 .wq-section-02-left {
   margin-top: 20px;
@@ -1031,10 +1035,7 @@ i.icon {
   height: auto;
   padding: 0px 20px;
   border: 1px solid #e0e0e0;
-  /* search box*/
-  /* leftside-panel*/
-  /* part-4*/
-  /* .part-5*/
+
 }
 .fixed{
   width: 178px;
@@ -1066,9 +1067,7 @@ i.icon {
   padding-bottom: 10px;
   margin-bottom: 8px;
   background: url(../images/left_panel_bottom_line.png) no-repeat center bottom;
-  /* reset p*/
-  /* soo-title*/
-  /* soo-body*/
+
 }
 .wq-section-02 .wq-section-02-left .leftside-panel p {
   margin: 0px;

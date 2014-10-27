@@ -8,29 +8,6 @@
     <link rel="stylesheet" href="css/subpage.css">
     <link rel="stylesheet" href="css/header.css">
     <script src="js/jquery.js"></script>
-    <script>
-    /*  左边浮动  */
-    $(document).ready(function(e) {
-        t = $('.fixed').offset().top;
-        mh = $('.wq-section-02-right').height();
-        fh = $('.fixed').height();
-        $(window).scroll(function(e) {
-            s = $(document).scrollTop();
-            if (s > t - 0) {
-                $('.fixed').css('position', 'fixed');
-                if (s + fh > mh + t - 100) {
-                    $('.fixed').css('top', mh - s - fh + t - 100 + 'px');
-                }
-                if (s + fh <= mh + t - 100) {
-                    $('.fixed').css('top', 0 + 'px');
-                }
-            } else {
-                $('.fixed').css('position', '');
-                $('.fixed').css('top', 0 + 'px');
-            }
-        })
-    });
-    </script>
 </head>
 
 <body>
@@ -297,7 +274,7 @@
 
 
 
-        <div class="wq-section-02">
+        <div class="wq-section-02 clearfix">
 
             <div class="wq-section-02-left">
                 <div class="fixed">
@@ -392,12 +369,12 @@
                         </div>
                     </div>
                     <!-- 底部图片-->
-                    <div class="part-6">
+                    <!-- <div class="part-6" style="">
                         <a href="" title="">
                             <img src="images/side_bottom.png" alt="">
                         </a>
 
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -780,7 +757,7 @@
         </div>
 
         <!-- ../wq-section-02 -->
-        <div class="wq-section-03">
+        <div class="wq-section-03 clearfix">
             <div class="wq-section-03-header">
                 <h5>知名品牌</h5>
             </div>
@@ -1082,6 +1059,28 @@
         </div>
         <!-- /.steps -->
     </div>
+
+
+    <script>
+    window.addEventListener('scroll', function() {
+        var st = document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var bt = $('.wq-section-02-right')[0].getBoundingClientRect().top;
+        console.log(bt);
+        console.log($('.wq-section-02-right')[0].scrollHeight);
+        if (bt <= 0) {
+            $('.wq-section-02-left').addClass('fixed');
+
+            if (-bt >= $('.wq-section-02-right')[0].scrollHeight - $('.wq-section-02-left')[0].scrollHeight) {
+                $('.wq-section-02-left').addClass('absolute')
+            } else {
+              $('.wq-section-02-left').removeClass('absolute');
+            }
+        } else {
+            $('.wq-section-02-left').removeClass('fixed');
+
+        }
+    });
+    </script>
 </body>
 
 </html>
