@@ -11,23 +11,22 @@
     <script>
     /*  左边浮动  */
     $(document).ready(function(e) {
-        fix_top = $('.fixed').offset().top;
-        right_height = $('.wq-section-02-right').height();
-        fix_height = $('.fixed').height();
+        t = $('.fixed').offset().top;
+        mh = $('.wq-section-02-right').height();
+        fh = $('.fixed').height();
         $(window).scroll(function(e) {
-            console.log("滚动了");
-            doc_scrolltop = $(document).scrollTop();
-            if (doc_scrolltop > fix_top - 0) {
+            s = $(document).scrollTop();
+            if (s > t - 0) {
                 $('.fixed').css('position', 'fixed');
-                if (doc_scrolltop + fix_height > right_height + fix_top - 350) {
-                    $('.fixed').css('top', right_height - doc_scrolltop - fix_height + fix_top - 350 + 'px');
-                }else{
+                if (s + fh > mh + t - 100) {
+                    $('.fixed').css('top', mh - s - fh + t - 100 + 'px');
+                }
+                if (s + fh <= mh + t - 100) {
                     $('.fixed').css('top', 0 + 'px');
                 }
             } else {
                 $('.fixed').css('position', '');
                 $('.fixed').css('top', 0 + 'px');
-                //$('.fixed').css('bottom', 0 + 'px');
             }
         })
     });
@@ -501,7 +500,6 @@
                             <span class="num">10000</span>人关注</p>
                         <span class="consult-link">我要咨询>></span>
                     </a>
-
                     <a class="list-item" href="###">
                         <div class="shadow-text">
                             <img src="http://placehold.it/152x113" alt="">
