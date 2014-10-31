@@ -1,0 +1,99 @@
+@charset"utf-8";
+@import"util";
+@import"base";
+@import"layout";
+@import"component";
+@import"sprite";
+/* recommend-brands*/
+
+.recommend-brands {
+    width: 1000px;
+    margin: 0px auto;
+    $active_theme_colorff4a00: #ff4a00;
+    table tr:nth-child(even) {
+        color: $active_theme_colorff4a00;
+    }
+    table tr td {
+        padding: 8px 15px;
+        padding-right: 0px;
+        border: 1px solid #d8d8d8;
+        //width: 19.2%;
+        width: 20%;
+        background: url(../images/item_dot.png) no-repeat 7px center;
+        &:last-child {
+            color: #333;
+            b {
+                color: $active_theme_colorff4a00;
+                font-weight: normal;
+            }
+            background-image: none;
+        }
+    }
+    table tr:first-child td:first-child {
+        width: 35px;
+        font-size: 14px;
+        font-weight: bolder;
+        padding: 0px 12px;
+        color: $active_theme_colorff4a00;
+        background-image: none;
+    }
+}
+
+/* project-nav*/
+.project-nav{
+    $active_theme_colorff4a00: #ff4a00;
+    width: 1000px;
+    margin: 0px auto;
+    background-color: $active_theme_colorff4a00;
+    .project-name{
+        font-size: 14px;
+        float: left;
+        color: #fff100;
+        &:hover{
+                text-decoration: none;
+            }
+    }
+    a{
+        display: block;
+        padding: 15px 45px;
+    }
+    .some-navs{
+        a{
+            display: inline-block;
+            padding: 15px 15px;
+            width: 11.4%;
+            font-size: 14px;
+            color: #fff;
+            &:hover{
+                background-color: red;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* bottom-five-icon*/
+.bottom-five-icon,.bottom-contact-us{
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+    /* .so-item{
+        float: left;
+        width: 19.5%;
+    } */
+}
+
+.bottom-contact-us{
+    height: 51px;
+    background: url(../images/bottom_contact_us.png) no-repeat left center;
+    position: relative;
+    padding: 8px 70px 8px 0px;
+    margin-bottom: 10px;
+    a{
+        display: block;
+        float: right;
+    }
+    .leave-messages{
+        margin-right: 10px;
+    }
+}
