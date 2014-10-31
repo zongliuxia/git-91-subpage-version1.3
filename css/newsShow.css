@@ -927,3 +927,134 @@ i.icon {
   width: 13px;
   height: 12px;
 }
+
+body {
+  background-color: #fff;
+}
+
+/* page-header*/
+.page-header .page-header-section1 {
+  padding: 10px 30px 15px;
+}
+.page-header .page-header-section1 .logo h1 {
+  margin: 0;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  width: 181px;
+  height: 61px;
+  text-indent: -999px;
+}
+.page-header .page-header-section1 .logo {
+  float: left;
+  width: 280px;
+}
+.page-header .page-header-page-right {
+  float: left;
+  width: 860px;
+  margin-top: 10px;
+}
+.page-header .top-search-search {
+  float: left;
+}
+.page-header .search-icon {
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+.page-header .top-search-search button {
+  background-color: #ff4a00;
+  padding: 5px 25px;
+  border: none;
+  color: #fff;
+  vertical-align: middle;
+}
+.page-header .top-search-search input {
+  border: 1px solid #ff4a00;
+  padding: 6px 0 5px;
+  width: 380px;
+  position: relative;
+  vertical-align: middle;
+  left: -5px;
+  text-indent: 1em;
+}
+.page-header .top-search-logo {
+  float: right;
+  background-color: #ff4a00;
+  padding: 5px 45px;
+}
+.page-header .top-search-logo a {
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
+.page-header .page-nav {
+  margin-top: 8px;
+}
+.page-header .page-nav span, .page-header .page-nav a {
+  display: inline-block;
+  margin-right: 15px;
+}
+.page-header .page-nav span {
+  color: #ff4a00;
+}
+.page-header .page-header-section2 {
+  border-top: 1px solid #ff4a00;
+  padding: 0 15px;
+  position: relative;
+}
+.page-header .page-header-section2:before {
+  display: block;
+  content: "";
+  width: 23px;
+  height: 11px;
+  background: url(../images/three-bl.png) no-repeat;
+  position: absolute;
+  top: -10px;
+  left: 18px;
+}
+.page-header .page-header-section2 h1 {
+  background-color: #ff4a00;
+  font-size: 16px;
+  color: #fff;
+  width: 30px;
+  float: left;
+  margin-top: 1px;
+  padding: 5px;
+}
+.page-header .page-header-section2 h1:before {
+  content: "";
+  width: 5px;
+  height: 2px;
+  background-color: #ff4a00;
+  position: relative;
+  top: -7px;
+  display: block;
+  left: 7px;
+}
+.page-header .page-header-sub-nav {
+  float: right;
+  width: 1140px;
+  padding: 5px 10px;
+}
+.page-header .page-header-sub-nav div {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 24px;
+}
+.page-header .page-header-sub-nav div:nth-child(6n) {
+  margin-right: 0;
+}
+.page-header .page-header-sub-nav div span {
+  color: #ff4a00;
+  display: inline-block;
+  margin-right: 10px;
+}
+.page-header .page-header-sub-nav div a {
+  display: inline-block;
+  margin-right: 8px;
+}
