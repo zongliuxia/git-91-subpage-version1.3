@@ -929,6 +929,9 @@ i.icon {
 }
 
 /* page-header*/
+.page-header .page-header-bgColor {
+  background-color: #fff;
+}
 .page-header .page-header-section1 {
   padding: 10px 30px 15px;
 }
@@ -977,6 +980,9 @@ i.icon {
   vertical-align: middle;
   left: -5px;
   text-indent: 1em;
+}
+.page-header .top-search-search input:focus, .page-header .top-search-search button:focus {
+  outline: none;
 }
 .page-header .top-search-logo {
   float: right;
@@ -1152,6 +1158,37 @@ i.icon {
   width: 710px;
   float: left;
 }
+.page-main .sprite-arrow-blue-arrow {
+  background-position: 0 0;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+.page-main .sprite-arrow-yellow-arrow {
+  background-position: 0 -60px;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+.page-main [class*="sprite-arrow"] {
+  background-image: url(../images/csg-5452e6ebe0549.png);
+  background-repeat: no-repeat;
+}
+.page-main .news-billbord li {
+  list-style: none;
+}
+.page-main .news-billbord li:before {
+  content: counter(li);
+  counter-increment: li;
+  color: white;
+  background-color: #666666;
+  width: 17px;
+  line-height: 17px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+}
 .page-main .page-main-right {
   width: 265px;
   float: left;
@@ -1183,6 +1220,9 @@ i.icon {
   clear: both;
   display: block;
   visibility: hidden;
+}
+.page-main .page-main-right .times-right-top {
+  text-align: center;
 }
 .page-main .page-main-right .times-right-top a {
   display: block;
@@ -1220,4 +1260,89 @@ i.icon {
   display: block;
   width: 100%;
   float: left;
+}
+
+/*page-footer*/
+.page-footer .entrepreneurial-story {
+  border: 1px solid #e0e0e0;
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+}
+.page-footer .message-board {
+  float: left;
+  width: 970px;
+  border: 1px solid #e0e0e0;
+  height: 388px;
+}
+.page-footer .entrepreneurial-story-header h2 {
+  background-color: #f9f9f9;
+  color: #ff4a00;
+  margin: 0;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.page-footer .story-item-img {
+  float: left;
+  width: 75px;
+  margin-right: 8px;
+}
+.page-footer .story-item-content {
+  float: left;
+  width: 115px;
+}
+.page-footer .entrepreneurial-story-body {
+  padding: 10px;
+  background-color: #fff;
+}
+.page-footer .story-item-content-title a {
+  color: #ff4a00;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.page-footer .entrepreneurial-story-body-item {
+  margin-bottom: 10px;
+}
+.page-footer .entrepreneurial-story-body-item:nth-child(4n) {
+  margin-bottom: 0;
+}
+.page-footer .page-footer-content {
+  padding: 20px 0 30px;
+  background-color: #fff;
+}
+.page-footer .page-footer-weixin {
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+.page-footer .footer-hot-project {
+  float: left;
+  width: 970px;
+  border: 1px solid #e0e0e0;
+}
+.page-footer .weixin-text {
+  margin-top: 10px;
+}
+.page-footer .footer-hot-project-header {
+  padding: 15px 15px 7px;
+  border-bottom: 1px solid #ff4a00;
+}
+.page-footer .footer-hot-project-header h2 {
+  color: #ff4a00;
+  font-size: 14px;
+  margin: 0;
+}
+.page-footer .footer-hot-project-body {
+  padding: 15px 25px 25px;
+}
+.page-footer .footer-hot-project-body a {
+  display: inline-block;
+  margin-right: 18px;
+}
+.page-footer .footer-hot-project-body a:nth-child(5n) {
+  margin-right: 0;
 }
