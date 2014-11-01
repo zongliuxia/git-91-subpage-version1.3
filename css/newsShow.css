@@ -987,12 +987,12 @@ i.icon {
 .page-header .top-search-logo {
   float: right;
   background-color: #ff4a00;
-  padding: 5px 45px;
+  padding: 5px 40px;
 }
 .page-header .top-search-logo a {
   color: #fff;
   display: inline-block;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 .page-header .page-nav {
   margin-top: 8px;
@@ -1041,12 +1041,11 @@ i.icon {
 .page-header .page-header-sub-nav {
   float: right;
   width: 1140px;
-  padding: 5px 10px;
+  padding: 9px 10px 5px;
 }
 .page-header .page-header-sub-nav div {
   float: left;
   margin-bottom: 5px;
-  margin-right: 24px;
 }
 .page-header .page-header-sub-nav div:nth-child(6n) {
   margin-right: 0;
@@ -1060,6 +1059,18 @@ i.icon {
   display: inline-block;
   margin-right: 8px;
 }
+.page-header .sub-nav-item-5 {
+  width: 230px;
+}
+.page-header .sub-nav-item-4 {
+  width: 200px;
+}
+.page-header .sub-nav-item-3 {
+  width: 160px;
+}
+.page-header .sub-nav-item-2 {
+  width: 170px;
+}
 
 /* page-main*/
 .page-main-header {
@@ -1067,8 +1078,14 @@ i.icon {
   border-bottom: 1px solid #ff4a00;
 }
 
+.wq-section-02-right {
+  float: right;
+  width: 970px;
+}
+
 .page-main-body {
   margin-top: 10px;
+  position: relative;
 }
 
 .page-main {
@@ -1077,14 +1094,25 @@ i.icon {
   margin: 0px auto;
   margin-bottom: 15px;
   padding-bottom: 35px;
-  min-height: 1220px;
   background-color: #fff;
   /* page-main-right*/
+}
+.page-main .page-main-left.absolute {
+  position: absolute;
+  bottom: 15px;
+  top: auto;
+}
+.page-main .page-main-left.fixed {
+  position: fixed;
+  top: 0;
+  background: white;
+}
+.page-main .fixed {
+  width: 178px;
 }
 .page-main .page-main-left {
   float: left;
   width: 220px;
-  height: 1170px;
   padding: 0px 20px;
   border: 1px solid #e0e0e0;
   /* search box*/
@@ -1139,6 +1167,9 @@ i.icon {
   color: #666666;
   font-size: 12px;
 }
+.page-main .page-main-left .leftside-panel .soo-body a:hover {
+  color: #ff4a00;
+}
 .page-main .page-main-left .leftside-panel .so-hot {
   font-size: 12px;
   color: #ff4a00;
@@ -1164,10 +1195,65 @@ i.icon {
 }
 .page-main .page-main-middle {
   width: 700px;
-  margin: 0 5px;
+  margin: 0 5px 0 0;
+  padding: 30px 20px;
   float: left;
   background-color: #f7fcff;
   border: 1px solid #e0e0e0;
+}
+.page-main .page-main-middle .page-main-middle-body {
+  height: 1450px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 {
+  margin-bottom: 20px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-tab .section1-tab-left {
+  float: left;
+  width: 50px;
+  vertical-align: middle;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-tab .section1-tab-left span {
+  color: #333333;
+  font-size: 14px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-tab .section-tab-right {
+  float: left;
+  width: 250px;
+  vertical-align: middle;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-tab .section-tab-right a {
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 20px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther {
+  margin-top: 30px;
+  margin-left: 210px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pagedown {
+  float: right;
+  width: 230px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pageUP {
+  float: left;
+  margin-right: 20px;
+  width: 230px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section2 .section2-title h2 {
+  font-size: 14px;
+  color: #333;
+  margin: 0 0 5px;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section2 .section2-body a {
+  display: inline-block;
+  margin-right: 30px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section2 .section2-body a:nth-child(2n) {
+  margin-right: 0;
 }
 .page-main .sprite-arrow-blue-arrow {
   background-position: 0 0;
@@ -1180,7 +1266,7 @@ i.icon {
   width: 10px;
   height: 10px;
   margin-left: 10px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .page-main [class*="sprite-arrow"] {
   background-image: url(../images/csg-5452e6ebe0549.png);
@@ -1189,6 +1275,7 @@ i.icon {
 .page-main .news-billboard {
   padding: 0;
   margin: 0;
+  counter-reset: li;
 }
 .page-main .news-billboard li {
   list-style: none;
@@ -1201,6 +1288,8 @@ i.icon {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  position: relative;
+  top: 3px;
 }
 .page-main .news-billboard li:before {
   content: counter(li);
@@ -1215,10 +1304,10 @@ i.icon {
   margin-right: 5px;
   border-radius: 2px;
 }
-.page-main .news-billboard li:nth-child(2):before, .page-main .news-billboard li:nth-child(3):before {
+.page-main .page-main .news-billboard li a:hover li:before {
   background-color: #ff7702;
 }
-.page-main .active-list:before {
+.page-main .news-billboard .active-list:before {
   position: relative;
   left: -219px;
   background-image: url(../images/billboard-bg.png);
@@ -1226,6 +1315,7 @@ i.icon {
   background-color: #fff !important;
   width: 17px;
   height: 37px;
+  line-height: 30px;
 }
 .page-main .billboard-content a {
   color: #f00;
@@ -1250,7 +1340,7 @@ i.icon {
 }
 .page-main .page-main-right {
   width: 265px;
-  float: left;
+  float: right;
   /* rightside-panel*/
   /* times-right-top*/
   /* rightside-section-1*/
@@ -1294,7 +1384,7 @@ i.icon {
   height: 75px;
 }
 .page-main .page-main-right .rightside-section-2 a {
-  width: 49%;
+  width: 115px;
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1307,6 +1397,9 @@ i.icon {
 }
 .page-main .page-main-right .rightside-section-2 a:hover {
   background-image: url(../images/rightside_the_red_dot.png);
+}
+.page-main .page-main-right .rightside-section-2 a:nth-child(11n), .page-main .page-main-right .rightside-section-2 a:nth-child(12n) {
+  margin-bottom: 0;
 }
 .page-main .page-main-right .rightside-section-3 a {
   width: 100%;
@@ -1350,6 +1443,9 @@ i.icon {
 .page-main .page-main-right .rightside-section-4 a {
   display: block;
   margin: 10px 0;
+}
+.page-main .page-main-right .rightside-section-4 a:nth-child(5n) {
+  margin-bottom: 0;
 }
 
 /*page-footer*/
