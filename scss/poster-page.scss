@@ -7,6 +7,7 @@
 
 /* page-header*/
 .page-header{
+    $active_theme_colorff4a00: #ff4a00;
     .container {
         width: 1000px;
     }
@@ -15,6 +16,7 @@
   }
   .page-header-section1{
     //padding:10px 30px 15px;
+    padding-top: 5px;
   }
   .page-header-section1 .logo h1{
     margin:0;
@@ -27,14 +29,19 @@
   }
   .page-header-section1 .logo{
     float: left;
-    margin-right: 18px;
+    margin-left: 10px;
+    margin-right: 28px;
     //width:280px;
 
   }
   .page-header-page-right{
     float: left;
-    width:800px;
+    width:780px;
     margin-top:10px;
+  }
+  .top-search{
+    //background-color: $active_theme_colorff4a00;
+    margin-top: 5px;
   }
   .top-search-search{
     float: left;
@@ -81,7 +88,8 @@ vertical-align:middle;
     margin-right:10px;
   }
   .page-nav{
-    margin-top:8px;
+    margin-top:3px;
+    margin-bottom: 10px;
   }
   .page-nav span,.page-nav a{
 
@@ -94,6 +102,7 @@ vertical-align:middle;
   .page-header-section2{
     border-top:1px solid #ff4a00;
     //padding:0 15px;
+    padding-bottom: 5px;
     position:relative;
   }
   .page-header-section2:before{
@@ -104,16 +113,21 @@ vertical-align:middle;
     background:url(../images/three-bl.png) no-repeat;
     position:absolute;
     top:-10px;
-    left:18px;
+    left:8px;
   }
   .page-header-section2 h1{
     background-color:#ff4a00;
     font-size:16px;
     color:#fff;
-    width:30px;
+    width:24px;
+    font-weight: normal;
     float: left;
-    margin-top:1px;
-        padding:5px;
+    margin-top:5px;
+    padding:1px 3px;
+    margin: 0px;
+    margin-bottom: -10px;
+    margin-left: 7px;
+    margin-top: 1px;
   }
   .page-header-section2 h1:before{
     content: "";
@@ -121,20 +135,21 @@ vertical-align:middle;
     height: 2px;
     background-color: #ff4a00;
     position: relative;
-    top: -7px;
+    top: -3px;
     display: block;
     left: 7px;
 }
 
   .page-header-sub-nav{
     float: right;
-    width:970px;
-    padding:5px 10px;
+    width:960px;
+    padding:5px 5px;
+    padding-bottom: 0px;
   }
   .page-header-sub-nav div{
     float: left;
 margin-bottom:5px;
-    margin-right:24px;
+    margin-right:12px;
   }
   .page-header-sub-nav div:nth-child(6n){
     margin-right:0
@@ -146,7 +161,7 @@ margin-bottom:5px;
   }
   .page-header-sub-nav div a{
     display:inline-block;
-    margin-right:8px;
+    margin-right:3px;
   }
 }
 /* recommend-brands*/
@@ -154,6 +169,7 @@ margin-bottom:5px;
 .recommend-brands {
     width: 1000px;
     margin: 0px auto;
+    background-color: #fff;
     $active_theme_colorff4a00: #ff4a00;
     table tr:nth-child(even) {
         color: $active_theme_colorff4a00;
@@ -194,6 +210,7 @@ margin-bottom:5px;
         font-size: 14px;
         float: left;
         color: #fff100;
+        padding: 15px 49px;
         &:hover{
                 text-decoration: none;
             }
