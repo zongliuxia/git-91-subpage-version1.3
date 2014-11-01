@@ -1062,6 +1062,15 @@ i.icon {
 }
 
 /* page-main*/
+.page-main-header {
+  padding: 10px 0 5px 10px;
+  border-bottom: 1px solid #ff4a00;
+}
+
+.page-main-body {
+  margin-top: 10px;
+}
+
 .page-main {
   /* page-main-left*/
   width: 1200px;
@@ -1073,7 +1082,6 @@ i.icon {
   /* page-main-right*/
 }
 .page-main .page-main-left {
-  margin-top: 20px;
   float: left;
   width: 220px;
   height: 1170px;
@@ -1155,8 +1163,11 @@ i.icon {
   white-space: nowrap;
 }
 .page-main .page-main-middle {
-  width: 710px;
+  width: 700px;
+  margin: 0 5px;
   float: left;
+  background-color: #f7fcff;
+  border: 1px solid #e0e0e0;
 }
 .page-main .sprite-arrow-blue-arrow {
   background-position: 0 0;
@@ -1169,15 +1180,29 @@ i.icon {
   width: 10px;
   height: 10px;
   margin-left: 10px;
+  margin-right: 20px;
 }
 .page-main [class*="sprite-arrow"] {
   background-image: url(../images/csg-5452e6ebe0549.png);
   background-repeat: no-repeat;
 }
-.page-main .news-billbord li {
-  list-style: none;
+.page-main .news-billboard {
+  padding: 0;
+  margin: 0;
 }
-.page-main .news-billbord li:before {
+.page-main .news-billboard li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px dotted #bababa;
+}
+.page-main .news-billboard li > a {
+  display: inline-block;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-main .news-billboard li:before {
   content: counter(li);
   counter-increment: li;
   color: white;
@@ -1188,6 +1213,40 @@ i.icon {
   position: relative;
   text-align: center;
   margin-right: 5px;
+  border-radius: 2px;
+}
+.page-main .news-billboard li:nth-child(2):before, .page-main .news-billboard li:nth-child(3):before {
+  background-color: #ff7702;
+}
+.page-main .active-list:before {
+  position: relative;
+  left: -219px;
+  background-image: url(../images/billboard-bg.png);
+  background-repeat: no-repeat;
+  background-color: #fff !important;
+  width: 17px;
+  height: 37px;
+}
+.page-main .billboard-content a {
+  color: #f00;
+}
+.page-main .billboard-content p span {
+  color: #964702;
+}
+.page-main .billbord-count {
+  margin-right: 10px;
+}
+.page-main .billboard-images {
+  float: left;
+  margin-left: 25px;
+}
+.page-main .billboard-content {
+  float: left;
+  width: 90px;
+  margin-left: 30px;
+}
+.page-main .billboard-content p {
+  margin: 0;
 }
 .page-main .page-main-right {
   width: 265px;
@@ -1198,6 +1257,9 @@ i.icon {
   /* rightside-section-2*/
   /* rightside-section-3*/
   /* rightside-section-4*/
+}
+.page-main .page-main-right .rightside-panel {
+  margin-bottom: 10px;
 }
 .page-main .page-main-right .rightside-panel .panel-title {
   font-size: 14px;
@@ -1211,6 +1273,7 @@ i.icon {
   color: red;
 }
 .page-main .page-main-right .rightside-panel .panel-body {
+  padding: 10px 10px 20px;
   border: 1px solid #e0e0e0;
   border-top: none;
 }
@@ -1232,34 +1295,61 @@ i.icon {
 }
 .page-main .page-main-right .rightside-section-2 a {
   width: 49%;
-  float: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 12px;
   color: #666;
   padding-left: 10px;
   background: url(../images/rightside_the_gray_dot.png) no-repeat left center;
+  margin-bottom: 10px;
 }
 .page-main .page-main-right .rightside-section-2 a:hover {
   background-image: url(../images/rightside_the_red_dot.png);
 }
 .page-main .page-main-right .rightside-section-3 a {
   width: 100%;
-  display: block;
-  float: left;
+  display: inline-block;
+  margin: 5px 0;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .page-main .page-main-right .rightside-section-3 .bottom-link {
+  float: left;
   width: 49%;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+.page-main .page-main-right .rightside-section-4 .the-firstone img {
+  float: left;
+  width: 110px;
+  margin-right: 10px;
+}
+.page-main .page-main-right .rightside-section-4 .the-firstone .the-firstone-content {
+  float: left;
+  width: 120px;
+}
+.page-main .page-main-right .rightside-section-4 .the-firstone .the-firstone-content a {
+  color: #ff4a00;
+  display: inline;
+}
+.page-main .page-main-right .rightside-section-4 .the-firstone h2 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
 }
 .page-main .page-main-right .rightside-section-4 .the-firstone .top-info {
-  width: 50%;
-  float: right;
+  margin: 5px 0 0;
 }
 .page-main .page-main-right .rightside-section-4 .the-firstone .top-info .look-more {
   color: #ff4a00;
 }
 .page-main .page-main-right .rightside-section-4 a {
   display: block;
-  width: 100%;
-  float: left;
+  margin: 10px 0;
 }
 
 /*page-footer*/
