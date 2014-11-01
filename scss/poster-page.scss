@@ -210,7 +210,8 @@ margin-bottom:5px;
         font-size: 14px;
         float: left;
         color: #fff100;
-        padding: 15px 49px;
+        padding: 15px 47px;
+        width: 188px;
         &:hover{
                 text-decoration: none;
             }
@@ -218,18 +219,44 @@ margin-bottom:5px;
     a{
         display: block;
         padding: 15px 47px;
+        background-color: $active_theme_colorff4a00;
     }
     .some-navs{
         a{
-            display: inline-block;
-            padding: 15px 15px;
-            width: 11.4%;
+            //display: inline-block;
+            display: block;
+            float: left;
+            padding: 15px 30px;
+            //width: 11.4%;
             font-size: 14px;
             color: #fff;
+
             &:hover{
-                background-color: red;
+                background-color: black;
                 text-decoration: none;
             }
+            $i:0;
+            @for $i from 0 through 7{
+              &:nth-child(#{$i}) {
+                background-image: url(../images/project-navs/#{$i}.png);
+                background-repeat: no-repeat;
+                background-position: 5px center;
+                background-color: $active_theme_colorff4a00;
+                //background: url(../images/project-navs/#{$i}.png) no-repeat left center $active_theme_colorff4a00;
+              }
+              &:nth-child(#{$i}):hover{
+               background-color: red;
+              }
+            } 
+            
+            /* &:last-child{
+                content: ".";
+                display: block;
+                height: 0;
+                visibility: hidden;
+                clear: right;
+            } */
+
         }
     }
 }

@@ -1118,7 +1118,8 @@ i.icon {
   font-size: 14px;
   float: left;
   color: #fff100;
-  padding: 15px 49px;
+  padding: 15px 47px;
+  width: 188px;
 }
 .project-nav .project-name:hover {
   text-decoration: none;
@@ -1126,17 +1127,97 @@ i.icon {
 .project-nav a {
   display: block;
   padding: 15px 47px;
+  background-color: #ff4a00;
 }
 .project-nav .some-navs a {
-  display: inline-block;
-  padding: 15px 15px;
-  width: 11.4%;
+  display: block;
+  float: left;
+  padding: 15px 30px;
   font-size: 14px;
   color: #fff;
+  /* &:last-child{
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      clear: right;
+  } */
 }
 .project-nav .some-navs a:hover {
-  background-color: red;
+  background-color: black;
   text-decoration: none;
+}
+.project-nav .some-navs a:nth-child(0) {
+  background-image: url(../images/project-navs/0.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(0):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(1) {
+  background-image: url(../images/project-navs/1.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(1):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(2) {
+  background-image: url(../images/project-navs/2.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(2):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(3) {
+  background-image: url(../images/project-navs/3.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(3):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(4) {
+  background-image: url(../images/project-navs/4.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(4):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(5) {
+  background-image: url(../images/project-navs/5.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(5):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(6) {
+  background-image: url(../images/project-navs/6.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(6):hover {
+  background-color: red;
+}
+.project-nav .some-navs a:nth-child(7) {
+  background-image: url(../images/project-navs/7.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: #ff4a00;
+}
+.project-nav .some-navs a:nth-child(7):hover {
+  background-color: red;
 }
 
 /* bottom-five-icon*/
