@@ -929,6 +929,9 @@ i.icon {
 }
 
 /* page-header*/
+.page-header {
+  font-size: 12px;
+}
 .page-header .container {
   width: 1000px;
 }
@@ -938,7 +941,7 @@ i.icon {
 .page-header .page-header-section1 {
   padding-top: 5px;
 }
-.page-header .page-header-section1 .logo h1 {
+.page-header .page-header-section1 .so-logo h1 {
   margin: 0;
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
@@ -946,7 +949,7 @@ i.icon {
   height: 61px;
   text-indent: -999px;
 }
-.page-header .page-header-section1 .logo {
+.page-header .page-header-section1 .so-logo {
   float: left;
   margin-left: 10px;
   margin-right: 28px;
@@ -1040,6 +1043,7 @@ i.icon {
   margin-bottom: -10px;
   margin-left: 7px;
   margin-top: 1px;
+  line-height: 1.2em;
 }
 .page-header .page-header-section2 h1:before {
   content: "";
@@ -1061,6 +1065,8 @@ i.icon {
   float: left;
   margin-bottom: 5px;
   margin-right: 8px;
+  line-height: 1.2em;
+  font-size: 12px;
 }
 .page-header .page-header-sub-nav div:nth-child(6n) {
   margin-right: 0;
@@ -1073,13 +1079,18 @@ i.icon {
 .page-header .page-header-sub-nav div a {
   display: inline-block;
   margin-right: 3px;
+  font-size: 12px;
 }
 
 /* recommend-brands*/
 .recommend-brands {
+  font-size: 12px;
   width: 1000px;
   margin: 0px auto;
   background-color: #fff;
+}
+.recommend-brands table {
+  border-collapse: collapse;
 }
 .recommend-brands table tr:nth-child(even) {
   color: #ff4a00;
