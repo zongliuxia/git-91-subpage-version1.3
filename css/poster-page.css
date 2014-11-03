@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *:before, *:after {
   box-sizing: border-box;
   -webkit-text-size-adjust: none;
@@ -1003,10 +1004,12 @@ i.icon {
   color: #fff;
   display: inline-block;
   margin-right: 10px;
+  font-size: 12px;
 }
 .page-header .page-nav {
   margin-top: 3px;
   margin-bottom: 10px;
+  font: 12px/1.2 微软雅黑;
 }
 .page-header .page-nav span, .page-header .page-nav a {
   display: inline-block;
@@ -1067,6 +1070,7 @@ i.icon {
   margin-right: 8px;
   line-height: 1.2em;
   font-size: 12px;
+  font-family: "微软雅黑";
 }
 .page-header .page-header-sub-nav div:nth-child(6n) {
   margin-right: 0;
@@ -1090,6 +1094,7 @@ i.icon {
   background-color: #fff;
 }
 .recommend-brands table {
+  font-size: 12px;
   border-collapse: collapse;
 }
 .recommend-brands table tr:nth-child(even) {
