@@ -298,28 +298,43 @@ margin-bottom:5px;
       width:970px;
       /* 1 search-area-title*/
       .search-area-title{
+        color: #333;
+        font-size: 14px;
         border-bottom: 3px solid $side_soo_title_color;
         .ao-right-data{
             float: right;
+            padding-right: 5px;
+        }
+        b{
+            font-weight: normal;
         }
       }
       /* search-area-body*/
       .search-area-body{
         .result-item{
             padding: 17px;
+            margin: 9px 0px;
+            margin-right: 4px;
+            border: 1px solid $the_light_gray_color;
         }
         img{
             float: left;
+            &:hover{
+                cursor: pointer;
+            }
         }
         /* item-intro*/
         .item-intro{
             float: left;
             margin-left: 30px;
-            h5{
+            .intro-title{
                 margin: 0px;
                 font-size: 14px;
                 font-weight: bold;
                 color: $side_soo_title_color;
+                &:hover{
+                    cursor: pointer;
+                }
             }
             .item-description{
                 width: 455px;
@@ -357,7 +372,7 @@ margin-bottom:5px;
                 display: block;
                 text-indent: -9999px;
                 width: 138px;
-                height: 27px;
+                height: 30px;
                 margin: 10px 0px;
             }
             .so-detail{
@@ -376,7 +391,7 @@ margin-bottom:5px;
             float: left;
             margin: 5px;
             font-size: 14px;
-            padding: 8px 10px;
+            padding: 3px 10px;
             background-color: #e4e4e4;
             color: #000;
             &:hover{
