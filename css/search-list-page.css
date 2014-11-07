@@ -1072,17 +1072,19 @@ i.icon {
   width: 170px;
 }
 
-/* page-main*/
+/* page-main-header*/
 .page-main-header {
-  padding: 10px 0 5px 10px;
-  border-bottom: 1px solid #ff4a00;
+  padding: 5px 0 5px 17px;
+  background-color: #ececec;
 }
 
+/* page-main-body*/
 .page-main-body {
   margin-top: 10px;
   position: relative;
 }
 
+/* page-main*/
 .page-main {
   /* page-main-left*/
   width: 1200px;
