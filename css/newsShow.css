@@ -1100,16 +1100,6 @@ i.icon {
 .page-main .fixed {
   width: 178px;
 }
-.page-main-left.fixed{
-  position:fixed;
-  top:0;
-  background: white;
-}
-.page-main-left.absolute{
-  position: absolute;
-  bottom:15px;
-  top:auto;
-}
 .page-main .page-main-left {
   float: left;
   width: 220px;
@@ -1198,36 +1188,11 @@ i.icon {
   margin: 0 5px 0 0;
   padding: 30px 20px;
   float: left;
+  background-color: #f7fcff;
   border: 1px solid #e0e0e0;
 }
 .page-main .page-main-middle .page-main-middle-body {
-
-  color:#444444;
-}
-.page-main-middle-body h2{
-  color:#000;
-  font-size: 26px;
-  font-weight: normal;
-  margin-top: 0;
-}
-.page-main-middle-body-simplified {
-border-top:#CCC 1px dashed;
-line-height: 26px;
-background-color: #f3f3f3;
-height: 70px;
-overflow: hidden;
-text-overflow: ellipsis;
-
-padding:10px;
-margin-top:15px;
-width: 660px;
-}
-.page-main-middle-body-content{
-  margin-top:20px;
-}
-.page-main-middle-body-content p{
-  /* text-indent: 2em; */
-  line-height:30px;
+  height: 1450px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 {
   margin-bottom: 20px;
@@ -1253,25 +1218,16 @@ width: 660px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther {
   margin-top: 30px;
-  margin-left: 180px;
+  margin-left: 210px;
 }
-.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pageDown {
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pagedown {
   float: right;
   width: 230px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pageUP {
   float: left;
   margin-right: 20px;
-  width: 220px;
-}
-.pageUP a,.pageDown a{
-display:inline-block;
-width: 160px;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-position: relative;
-top: 2px;
+  width: 230px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section2 .section2-title h2 {
   font-size: 14px;
@@ -1313,7 +1269,7 @@ top: 2px;
 }
 .page-main .news-billboard li {
   list-style: none;
-  padding: 8px 0;
+  padding: 10px 0;
   border-bottom: 1px dotted #bababa;
 }
 .page-main .news-billboard li > a {
@@ -1384,10 +1340,6 @@ top: 2px;
   /* rightside-section-2*/
   /* rightside-section-3*/
   /* rightside-section-4*/
-}
-.times-right-top span{
-  display: block;
-  margin:5px 0;
 }
 .page-main .page-main-right .rightside-panel {
   margin-bottom: 10px;
@@ -1572,17 +1524,4 @@ top: 2px;
 }
 .page-footer .footer-hot-project-body a:nth-child(5n) {
   margin-right: 0;
-}
-.recommend-reading{
-  margin:20px 0;
-}
-.recommend-reading p{
-  text-indent: 0;
-}
-.recommend-reading a{
-  display: inline-block;
-  width: 270px;
-  margin: 10px 0;
-  color:#E53333;
-  margin-left: 20px;
 }
