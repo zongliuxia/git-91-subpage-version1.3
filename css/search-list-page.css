@@ -1284,6 +1284,10 @@ i.icon {
 .page-main .page-main-right .search-area-bottom {
   width: 600px;
   margin: 20px auto;
+  list-style: none;
+}
+.page-main .page-main-right .search-area-bottom li {
+  float: left;
 }
 .page-main .page-main-right .search-area-bottom a {
   display: block;
@@ -1305,6 +1309,10 @@ i.icon {
   margin: 5px 15px;
 }
 .page-main .page-main-right .search-area-bottom a.nowpage {
+  color: #fff;
+  background-color: #ff4a00;
+}
+.page-main .page-main-right .search-area-bottom a.active {
   color: #fff;
   background-color: #ff4a00;
 }

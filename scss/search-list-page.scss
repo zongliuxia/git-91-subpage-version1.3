@@ -376,6 +376,10 @@
         .search-area-bottom {
             width: 600px;
             margin: 20px auto;
+            list-style: none;
+            li{
+                float: left;
+            }
             a {
                 display: block;
                 float: left;
@@ -396,6 +400,10 @@
                 margin: 5px 15px;
             }
             a.nowpage {
+                color: #fff;
+                background-color: $side_soo_title_color;
+            }
+            a.active {
                 color: #fff;
                 background-color: $side_soo_title_color;
             }
