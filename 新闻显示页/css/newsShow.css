@@ -1100,16 +1100,6 @@ i.icon {
 .page-main .fixed {
   width: 178px;
 }
-.page-main-left.fixed{
-  position:fixed;
-  top:0;
-  background: white;
-}
-.page-main-left.absolute{
-  position: absolute;
-  bottom:15px;
-  top:auto;
-}
 .page-main .page-main-left {
   float: left;
   width: 220px;
@@ -1253,25 +1243,16 @@ width: 660px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther {
   margin-top: 30px;
-  margin-left: 180px;
+  margin-left: 210px;
 }
-.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pageDown {
+.page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pagedown {
   float: right;
   width: 230px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section1 .section1-pageOther .pageUP {
   float: left;
   margin-right: 20px;
-  width: 220px;
-}
-.pageUP a,.pageDown a{
-display:inline-block;
-width: 160px;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-position: relative;
-top: 2px;
+  width: 230px;
 }
 .page-main .page-main-middle .page-main-middle-bottom .page-main-middle-bottom-section2 .section2-title h2 {
   font-size: 14px;

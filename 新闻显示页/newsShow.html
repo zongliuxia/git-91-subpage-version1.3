@@ -314,10 +314,10 @@
                             </div>
                             <div class="section1-pageOther">
                                 <div class="pageUP">
-                                    <span>上一篇：</span><a href="###">看一个苦闷的下岗工人如何致富？看一个苦闷的下岗工人如何致富？</a>
+                                    <span>上一篇：</span><a href="###">看一个苦闷的下岗工人如何致富？</a>
                                 </div>
                                 <div class="pageDown">
-                                    <span>下一篇：</span><a href="###">中年夫妻开甜品店有绝招中年夫妻开甜品店有绝招</a>
+                                    <span>下一篇：</span><a href="###">中年夫妻开甜品店有绝招</a>
                                 </div>
                             </div>
                         </div>
@@ -586,7 +586,7 @@
 
 
             if (-bt >= $('.wq-section-02-right')[0].scrollHeight - $('.page-main-left')[0].scrollHeight) {
-                // $('.page-main-left').removeClass('fixed');
+                $('.page-main-left').removeClass('fixed');
                 $('.page-main-left').addClass('absolute');
 
             } else {
@@ -594,23 +594,23 @@
             }
         } else {
             $('.page-main-left').removeClass('fixed');
-            // $(".page-main-left").css({
-            //     "position": "absolute",
-            //     "top": "0",
-            //     "bottom": 'auto'
-            // });
+            $(".page-main-left").css({
+                "position": "absolute",
+                "top": "0",
+                "bottom": 'auto'
+            });
 
         }
-        // $(".page-main-left.fixed").css({
-        //     "position": "fixed",
-        //     "top": "0",
-        //     "background": "white"
-        // });
-        // $(".page-main-left.absolute").css({
-        //     "position": "absolute",
-        //     "bottom": "15px",
-        //     "top": "auto"
-        // });
+        $(".page-main-left.fixed").css({
+            "position": "fixed",
+            "top": "0",
+            "background": "white"
+        });
+        $(".page-main-left.absolute").css({
+            "position": "absolute",
+            "bottom": "15px",
+            "top": "auto"
+        });
     });
     </script>
 </body>
