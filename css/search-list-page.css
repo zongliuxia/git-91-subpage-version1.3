@@ -1183,6 +1183,10 @@ i.icon {
 .page-main .page-main-left .part-5 {
   background: none;
 }
+.page-main .page-main-left .part-5 .news {
+  height: 225px;
+  overflow-y: hidden;
+}
 .page-main .page-main-left .part-5 .news a {
   display: block;
   overflow: hidden;

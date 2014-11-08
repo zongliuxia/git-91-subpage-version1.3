@@ -268,7 +268,10 @@
         .part-5 {
             background: none;
             .news {
+                height: 25px * 9;
+                overflow-y: hidden;
                 a {
+                    //margin-top: 10px;
                     display: block;
                     overflow: hidden;
                     text-overflow: ellipsis;

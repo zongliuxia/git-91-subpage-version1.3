@@ -225,12 +225,16 @@
                             成交播报
                         </div>
                         <div class="soo-body news">
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">1热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">2热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">3热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">4热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">5热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">6热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">7热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">8热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">9热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <a href="" title="">10热烈庆祝王女士加盟开心就好的啊加盟开心</a>
                         </div>
                     </div>
 
@@ -464,6 +468,33 @@
         }
         console.log();
     });
+    </script>
+    <!-- 链接文本垂直滚动-->
+    <script type="text/javascript">
+        /**
+         * 垂直移动，间隔一段时间调用自身
+         * @return {[type]} [description]
+         */
+        function verticalScroll(){
+            var $all_links_wrap = $(".page-main-left .part-5 .news");
+            var $all_links = $all_links_wrap.find("a");
+            var $the_firstone=$all_links.eq(0);
+            /* 第一个元素复制添加到末尾*/
+            $the_firstone.clone().css("marginTop",$the_firstone.css("marginTop")).appendTo($all_links_wrap);
+            /* animation option*/
+            var option={
+                marginTop: (function(){
+                    return -$the_firstone.height()+"px"
+                })()
+            };
+            /* jquery animate*/
+            $the_firstone.animate(option,
+                "slow", function() {
+                var you=$(this).remove();
+                setTimeout(verticalScroll, 1800);
+            });
+        }
+        verticalScroll();
     </script>
 </body>
 
