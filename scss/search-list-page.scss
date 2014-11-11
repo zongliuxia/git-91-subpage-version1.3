@@ -268,9 +268,9 @@
         .part-5 {
             background: none;
             .news {
-                height: 25px * 9;
+                height: 25px * 6;
                 overflow-y: hidden;
-                a {
+                a,span {
                     //margin-top: 10px;
                     display: block;
                     overflow: hidden;

@@ -225,16 +225,12 @@
                             成交播报
                         </div>
                         <div class="soo-body news">
-                            <a href="" title="">1热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">2热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">3热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">4热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">5热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">6热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">7热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">8热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">9热烈庆祝王女士加盟开心就好的啊加盟开心</a>
-                            <a href="" title="">10热烈庆祝王女士加盟开心就好的啊加盟开心</a>
+                            <span href="" title="">1热烈庆祝王女士加盟开心就好的啊加盟开心</span>
+                            <span href="" title="">2热烈庆祝王女士加盟开心就好的啊加盟开心</span>
+                            <span href="" title="">3热烈庆祝王女士加盟开心就好的啊加盟开心</span>
+                            <span href="" title="">4热烈庆祝王女士加盟开心就好的啊加盟开心</span>
+                            <span href="" title="">5热烈庆祝王女士加盟开心就好的啊加盟开心</span>
+                            <span href="" title="">6热烈庆祝王女士加盟开心就好的啊加盟开心</span>
                         </div>
                     </div>
 
@@ -477,8 +473,8 @@
          */
         function verticalScroll(){
             var $all_links_wrap = $(".page-main-left .part-5 .news");
-            var $all_links = $all_links_wrap.find("a");
-            var $the_firstone=$all_links.eq(0);
+            var $the_firstone=$all_links_wrap.find(":first");
+            //var $the_firstone=$all_links.eq(0);
             /* 第一个元素复制添加到末尾*/
             $the_firstone.clone().css("marginTop",$the_firstone.css("marginTop")).appendTo($all_links_wrap);
             /* animation option*/
