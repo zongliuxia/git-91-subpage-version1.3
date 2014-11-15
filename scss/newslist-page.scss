@@ -367,6 +367,172 @@ width:970px;
   }
   /* page-main-right-section1*/
   .page-main-right-section2{
+    .business-consulting-header{
+      h1{
+        height:35px;
+        width:970px;
+
+        background:url(../images/se2-header.jpg) no-repeat left top;
+        text-indent:-999px;
+      }
+    }
+    /* business-consulting-body-left*/
+    .business-consulting-body-left{
+      float: left;
+      width:690px;
+      border:1px solid #e0e0e0;
+      border-bottom:0;
+      margin-right:10px;
+      .business-consulting-body-left-item{
+        float: left;
+        width:344px;
+        border-right:1px solid #e0e0e0;
+        border-bottom:1px solid #e0e0e0;
+        .business-consulting-left-item-header{
+          border-bottom:2px solid #cc3333;
+          padding:10px;
+          h2{
+
+            margin:0;
+            color:#cc3333;
+            font-size:16px;
+            float: left;
+            .icon-fz{
+              background: url(../images/icon-fuzhuang.jpg) no-repeat top left;
+              display:inline-block;
+              width:17px;
+              height:13px;
+              margin-right:10px;
+
+            }
+          }
+          a{
+            display:block;
+            float: right;
+            position: relative;
+            top: 2px;
+          }
+        }
+        .business-consulting-left-item-body{
+          padding:10px 10px 20px;
+          .item-case-images{
+            float: left;
+            width:100px;
+            margin-right:10px;
+          }
+          .item-case-text{
+            float: left;
+             width:210px;
+             h3{
+              font-size:14px;
+              color:#333333;
+              margin:0;
+             }
+             p{
+              margin:5px 0 0;
+              line-height:20px;
+              a{
+                color:#f00;
+              }
+             }
+          }
+          .business-consulting-left-item-project{
+            margin:10px 0;
+            ul{
+              margin:0;
+              padding:0;
+              margin-left:15px;
+              li{
+                list-style-type:square;
+                margin-bottom:10px;
+                a{
+                  font-size:14px;
+                  color:#333;
+
+                }
+              }
+
+            }
+          }
+          .business-consulting-left-item-hotproject{
+            a{
+              display:inline-block;
+              text-decoration:underline;
+              color:#f00;
+              font-size:14px;
+              margin-right:10px;
+            }
+          }
+        }
+      }
+      .business-consulting-body-left-item:nth-child(2n){
+        border-right:0;
+      }
+    }
+    /* business-consulting-body-right*/
+    .business-consulting-body-right{
+      $side_soo_title_color: #ff4a00;
+      $the_light_gray_color:#e0e0e0;
+      $right_panel_bg_color:#f9f9f9;
+      float: left;
+      width:270px;
+      border:1px solid #e0e0e0;
+      .sprite-arrow-blue-arrow{ background-position: 0 0; width: 10px; height: 10px;margin-left:10px;}
+      .sprite-arrow-yellow-arrow{ background-position: 0 -60px; width: 10px; height: 10px;margin-left:10px;margin-right:15px; }
+      [class*="sprite-arrow"]{
+          background-image:url(../images/csg-5452e6ebe0549.png);
+          background-repeat: no-repeat;
+      }
+      .panel-body{
+              padding:10px 10px 20px;
+              // border: 1px solid $the_light_gray_color;
+              border-top: none;
+              &:last-child:after{
+                  height: 0;
+                  content: ".";
+                  clear: both;
+                  display: block;
+                  visibility: hidden;
+              }
+              .the-firstone{
+                img{       float: left;
+                            width: 110px;
+                            margin-right:10px;
+                          }
+                          .the-firstone-content{
+                            float: left;
+                            width:120px;
+                          }
+                          .the-firstone-content a{
+
+                          color:#ff4a00;
+                          display:inline;
+                          }
+                          h2{
+                            margin:0;
+                            color:#666666;
+                            font-size:14px;
+                          }
+              }
+
+      }
+      .panel-title{
+        font-size: 14px;
+        margin: 0px;
+        padding: 10px 10px;
+        border-bottom: 1px solid $the_light_gray_color;
+        color: $side_soo_title_color;
+        background-color: $right_panel_bg_color;
+        b{
+          color: red;
+        }
+
+      }
+
+
+    }
+
+
     .news-billboard{
       padding:0;
       margin:0;
