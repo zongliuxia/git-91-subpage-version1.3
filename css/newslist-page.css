@@ -1282,7 +1282,9 @@ i.icon {
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right {
   float: left;
   width: 270px;
-  border: 1px solid #e0e0e0;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-1, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 {
+  margin-bottom: 10px;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .sprite-arrow-blue-arrow {
   background-position: 0 0;
@@ -1303,6 +1305,7 @@ i.icon {
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .panel-body {
   padding: 10px 10px 20px;
+  border: 1px solid #e0e0e0;
   border-top: none;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .panel-body:last-child:after {
@@ -1334,7 +1337,7 @@ i.icon {
   font-size: 14px;
   margin: 0px;
   padding: 10px 10px;
-  border-bottom: 1px solid #e0e0e0;
+  border: 1px solid #e0e0e0;
   color: #ff4a00;
   background-color: #f9f9f9;
 }
