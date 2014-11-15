@@ -1497,13 +1497,26 @@ i.icon {
 
 .page-main-right-section1 {
   /* itself style*/
-  margin-left: 220px;
+  height: 290px;
+  overflow: hidden;
   /* common first, begin*/
   /* common,end*/
   /* brands-focus*/
   /* recommendation-daily*/
 }
+.page-main-right-section1 .aoo-panel h3 {
+  margin: 0px;
+  font-size: 14px;
+  padding: 3px 0px 13px 0px;
+  border-bottom: 2px solid #ff4a00;
+  font-weight: normal;
+}
+.page-main-right-section1 .aoo-panel h3 b {
+  color: #ff4a00;
+}
 .page-main-right-section1 .aoo-panel a, .page-main-right-section1 .aoo-panel span {
+  font-size: 12px;
+  padding: 5px 0px;
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1511,19 +1524,57 @@ i.icon {
 }
 .page-main-right-section1 .brands-focus {
   width: 690px;
-  height: 285px;
+  float: left;
+  height: 280px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  padding: 8px;
   /* lunbo-left*/
 }
 .page-main-right-section1 .brands-focus .lunbo-left {
   width: 392px;
   height: 263px;
   float: left;
+  /* reset slick style*/
+  /* lunbo-bottom*/
+}
+.page-main-right-section1 .brands-focus .lunbo-left .slick-dots {
+  bottom: 0px;
+}
+.page-main-right-section1 .brands-focus .lunbo-left .slick-dots li button {
+  color: #000;
+  background: #fff;
+  font-size: 10px;
+}
+.page-main-right-section1 .brands-focus .lunbo-left .slick-dots li button:before {
+  font-size: 0px;
+}
+.page-main-right-section1 .brands-focus .lunbo-left .slick-dots li.slick-active button {
+  background-color: #fff;
+  color: #fff;
+}
+.page-main-right-section1 .brands-focus .lunbo-left .lunbo-bottom {
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  bottom: -10px;
+  background-color: #1f1d1d;
+  width: 100%;
 }
 .page-main-right-section1 .brands-focus .brands-focus-panel {
   width: 254px;
   overflow: hidden;
+  margin-left: 420px;
+}
+.page-main-right-section1 .brands-focus .brands-focus-panel p {
+  margin-top: 5px;
 }
 .page-main-right-section1 .recommendation-daily {
-  width: 200px;
+  width: 263px;
+  padding: 8px;
+  margin-left: 10px;
   float: left;
+  height: 280px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
 }
