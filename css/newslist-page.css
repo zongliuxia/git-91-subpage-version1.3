@@ -1242,3 +1242,36 @@ i.icon {
   /* page-main-right-section3*/
   /* page-main-right-section4*/
 }
+
+.page-main-right-section1 {
+  /* itself style*/
+  margin-left: 220px;
+  /* common first, begin*/
+  /* common,end*/
+  /* brands-focus*/
+  /* recommendation-daily*/
+}
+.page-main-right-section1 .aoo-panel a, .page-main-right-section1 .aoo-panel span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-main-right-section1 .brands-focus {
+  width: 690px;
+  height: 285px;
+  /* lunbo-left*/
+}
+.page-main-right-section1 .brands-focus .lunbo-left {
+  width: 392px;
+  height: 263px;
+  float: left;
+}
+.page-main-right-section1 .brands-focus .brands-focus-panel {
+  width: 254px;
+  overflow: hidden;
+}
+.page-main-right-section1 .recommendation-daily {
+  width: 200px;
+  float: left;
+}

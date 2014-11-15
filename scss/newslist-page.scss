@@ -377,3 +377,43 @@ margin-bottom:5px;
   /* page-main-right-section4*/
 }
 }
+
+.page-main-right-section1{
+  /* itself style*/
+  margin-left: 220px;
+  /* common first, begin*/
+    .aoo-panel{
+      a,span{
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    /* common,end*/
+  /* brands-focus*/
+  .brands-focus{
+    width: 690px;
+    height: 285px;
+    /* lunbo-left*/
+    .lunbo-left{
+      width: 392px;
+      height: 263px;
+      float: left;
+      //overflow: hidden;
+    }
+    .brands-focus-panel{
+      //float: left;
+      width: 254px;
+      overflow: hidden;
+    }
+  }
+  /* recommendation-daily*/
+  .recommendation-daily{
+    width: 200px;
+    float: left;
+    .inner-panel{
+      
+    }
+  }
+}
