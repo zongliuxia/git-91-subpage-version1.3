@@ -713,7 +713,23 @@ width:970px;
   }
   /* page-main-right-section3*/
   .page-main-right-section4{
+    padding:10px;
+      h2{
+        color:#000;
 
+      }
+      .section4-slick-item{
+        float: left;
+        margin-right:20px;
+        span{
+          display:block;
+          text-align:center;
+
+        }
+      }
+      .section4-slick-item:nth-child(6n){
+        margin-right:0;
+      }
   }
   /* page-main-right-section4*/
 }

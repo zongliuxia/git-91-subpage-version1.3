@@ -1477,6 +1477,23 @@ i.icon {
 .page-main .page-main-right .page-main-right-section2 .page-main-right .rightside-section-1 table .the-top-one {
   height: 75px;
 }
+.page-main .page-main-right .page-main-right-section4 {
+  padding: 10px;
+}
+.page-main .page-main-right .page-main-right-section4 h2 {
+  color: #000;
+}
+.page-main .page-main-right .page-main-right-section4 .section4-slick-item {
+  float: left;
+  margin-right: 20px;
+}
+.page-main .page-main-right .page-main-right-section4 .section4-slick-item span {
+  display: block;
+  text-align: center;
+}
+.page-main .page-main-right .page-main-right-section4 .section4-slick-item:nth-child(6n) {
+  margin-right: 0;
+}
 
 .page-main-right-section1 {
   /* itself style*/
