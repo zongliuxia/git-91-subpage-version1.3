@@ -1286,6 +1286,27 @@ i.icon {
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-1, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 {
   margin-bottom: 10px;
 }
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2 .panel-body a, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3 .panel-body a {
+  display: block;
+  margin-bottom: 9px;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2 .panel-body a:nth-child(7n), .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3 .panel-body a:nth-child(7n) {
+  margin-bottom: 0;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3 .panel-body a:nth-child(5n) {
+  margin-bottom: 0;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 .panel-body {
+  padding: 10px 10px 0;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 .panel-body a {
+  display: block;
+  margin-bottom: 8px;
+}
+.page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 .panel-body .rightside-section-4-images a {
+  float: left;
+  margin-right: 10px;
+}
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .sprite-arrow-blue-arrow {
   background-position: 0 0;
   width: 10px;
@@ -1351,7 +1372,7 @@ i.icon {
 }
 .page-main .page-main-right .page-main-right-section2 .news-billboard li {
   list-style: none;
-  padding: 10px 0;
+  padding: 8px 0;
   border-bottom: 1px dotted #bababa;
 }
 .page-main .page-main-right .page-main-right-section2 .news-billboard li > a {
