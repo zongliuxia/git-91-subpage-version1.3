@@ -1246,7 +1246,7 @@ i.icon {
       width: 19.5%;
   } */
 }
-/*
+
 .bottom-contact-us {
   height: 51px;
   background: url(../images/bottom_contact_us.png) no-repeat left center;
@@ -1260,28 +1260,4 @@ i.icon {
 }
 .bottom-contact-us .leave-messages {
   margin-right: 10px;
-}*/
-
-.contact-us p{
-  padding:10px 0;
-}
-.footer_float_400_flbar{
-  position:fixed;
-  bottom:0px;
-  z-index:999;
-  height:60px;
-  background: #121212;
-  width:100%;
-}
-
-.footer_float_400_flbar_box{
-  background: url(../images/footer_float_400_bottom1.png) no-repeat top left;
-  height:1000px;
-  width: 1000px;
-  margin:0 auto;
-  padding:10px 0;
-}
-.footer_float_400_flbar_box a{
-  float:right;
-  margin-left:10px;
 }
