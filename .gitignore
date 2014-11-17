@@ -43,5 +43,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# pending
+# pending 待处理的文件集合(主要是psd和图片)
 pending/
+
+# output 输出的独立内容(到后端)
+
+# local_test
+local_test/
