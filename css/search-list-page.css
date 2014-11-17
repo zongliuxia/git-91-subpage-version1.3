@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *:before, *:after {
   box-sizing: border-box;
   -webkit-text-size-adjust: none;
@@ -1270,16 +1271,42 @@ i.icon {
 }
 .page-main .page-main-right .search-area-body .item-findmore a {
   display: block;
-  text-indent: -9999px;
-  width: 138px;
+  width: 120px;
   height: 30px;
+  color: #fff;
   margin: 10px 0px;
+  background-color: #ff4a00;
+  line-height: 30px;
+  font-size: 14px;
+  transition: box-shadow 0.4s;
+  -moz-transition: box-shadow 0.4s;
+  /* Firefox 4 */
+  -webkit-transition: box-shadow 0.4s;
+  /* Safari 和 Chrome */
+  -o-transition: box-shadow 0.4s;
+  /* Opera */
+  -webkit-box-shadow: 0 0 12px rgba(255, 255, 255, 0.6), inset 0 0 12px white;
+  -moz-box-shadow: 0 0 12px rgba(255, 255, 255, 0.6), inset 0 0 12px white;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6), inset 0 0 12px white;
+}
+.page-main .page-main-right .search-area-body .item-findmore a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: none;
+  transition: box-shadow 0.25s;
+  -moz-transition: box-shadow 0.25s;
+  /* Firefox 4 */
+  -webkit-transition: box-shadow 0.25s;
+  /* Safari 和 Chrome */
+  -o-transition: box-shadow 0.25s;
+  /* Opera */
 }
 .page-main .page-main-right .search-area-body .item-findmore .so-detail {
-  background: url(../images/right_find_detail.png);
+  padding-left: 10px;
 }
 .page-main .page-main-right .search-area-body .item-findmore .so-consult {
-  background: url(../images/right_i_want_consult.png);
+  background: url(../images/a_little_qq.png) no-repeat 15px center #ff4a00;
+  padding-left: 37px;
 }
 .page-main .page-main-right .search-area-bottom {
   width: 600px;
