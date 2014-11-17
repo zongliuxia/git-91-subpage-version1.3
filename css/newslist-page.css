@@ -1506,7 +1506,7 @@ i.icon {
   display: block;
 }
 .page-main .page-main-right .page-main-right-section3 a:before {
-  content: '▪';
+  content: '▪ ';
 }
 .page-main .page-main-right .page-main-right-section3 .a-none:before {
   content: none;
