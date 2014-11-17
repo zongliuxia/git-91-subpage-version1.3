@@ -1483,16 +1483,12 @@ i.icon {
 }
 .page-main .page-main-right .page-main-right-section3 .block {
   float: left;
-  margin-left: 10px;
   border: 1px solid #ccc;
   height: 325px;
 }
-.page-main .page-main-right .page-main-right-section3 .block1 {
-  width: 672px;
-}
 .page-main .page-main-right .page-main-right-section3 .block2 {
-  width: 275px;
-  padding: 10px 15px;
+  margin-left: 10px;
+  padding: 10px;
 }
 .page-main .page-main-right .page-main-right-section3 .block2 hr {
   border: 0;
@@ -1508,9 +1504,11 @@ i.icon {
 .page-main .page-main-right .page-main-right-section3 a:before {
   content: '▪ ';
 }
-.page-main .page-main-right .page-main-right-section3 .a-none:before {
-  content: none;
+.page-main .page-main-right .page-main-right-section3 .a-none, .page-main .page-main-right .block1-main .a-first {
   padding-left: 0;
+}
+.page-main .page-main-right .page-main-right-section3 .a-none:before, .page-main .page-main-right .block1-main .a-first:before {
+  content: none;
 }
 .page-main .page-main-right .page-main-right-section3 h2 {
   width: 100px;
@@ -1529,40 +1527,32 @@ i.icon {
   float: left;
   display: inline;
   padding-left: 10px;
-  width: 185px;
+  width: 193px;
 }
 .page-main .page-main-right .page-main-right-section3 p b {
   color: #363636;
   font-size: 14px;
 }
-.page-main .page-main-right .page-main-right-section3 .block1-list {
+.page-main .page-main-right .block1-list {
   padding: 5px 50px 0 15px;
   float: left;
 }
 .page-main .page-main-right .page-main-right-section3 .list2 {
-  padding-right: 25px;
+  padding-right: 46px;
 }
-.page-main .page-main-right .page-main-right-section3 .block1-top {
+.page-main .page-main-right .block1-top {
   border-bottom: 1px solid #ccc;
   background: #F2F1F1;
   padding: 15px;
-  width: 670px;
 }
-.page-main .page-main-right .block1-top h2 {
+.page-main .page-main-right .block1-top h2, .page-main .page-main-right .block1-main img {
   float: left;
 }
-.page-main .page-main-right .page-main-right-section3 .block1-main img {
-  float: left;
-}
-.page-main .page-main-right .page-main-right-section3 .block1-main .a-first {
+.page-main .page-main-right .block1-main .a-first {
   width: 281px;
   max-width: 300px;
 }
-.page-main .page-main-right .page-main-right-section3 .block1-main .a-first:before {
-  content: none;
-  padding-left: 0;
-}
-.page-main .page-main-right .page-main-right-section3 .top-h2-right {
+.page-main .page-main-right .block1-top .top-h2-right {
   margin-left: 250px;
 }
 .page-main .page-main-right .page-main-right-section4 {
