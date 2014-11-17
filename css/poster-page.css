@@ -1063,6 +1063,7 @@ i.icon {
   width: 960px;
   padding: 5px 5px;
   padding-bottom: 0px;
+  font-family: "微软雅黑";
 }
 .page-header .page-header-sub-nav div {
   float: left;
@@ -1076,14 +1077,20 @@ i.icon {
   margin-right: 0;
 }
 .page-header .page-header-sub-nav div span {
-  color: #ff4a00;
   display: inline-block;
   margin-right: 10px;
+}
+.page-header .page-header-sub-nav div span, .page-header .page-header-sub-nav div span a {
+  color: #ff4a00;
+}
+.page-header .page-header-sub-nav div span a {
+  margin-right: 0px;
 }
 .page-header .page-header-sub-nav div a {
   display: inline-block;
   margin-right: 3px;
   font-size: 12px;
+  text-decoration: none;
 }
 
 /* recommend-brands*/
