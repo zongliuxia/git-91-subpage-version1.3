@@ -500,6 +500,10 @@ width:970px;
           a{
             display:block;
             margin-bottom:9px;
+            width: 220px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
           }
           a:nth-child(7n){
             margin-bottom:0;
@@ -519,6 +523,10 @@ width:970px;
           a{
             display:block;
             margin-bottom:8px;
+            // width: 220px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
           }
           .rightside-section-4-images{
             a{

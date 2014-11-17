@@ -1305,6 +1305,10 @@ i.icon {
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2 .panel-body a, .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3 .panel-body a {
   display: block;
   margin-bottom: 9px;
+  width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-2 .panel-body a:nth-child(7n), .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-3 .panel-body a:nth-child(7n) {
   margin-bottom: 0;
@@ -1318,6 +1322,9 @@ i.icon {
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 .panel-body a {
   display: block;
   margin-bottom: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-right .rightside-section-4 .panel-body .rightside-section-4-images a {
   float: left;
