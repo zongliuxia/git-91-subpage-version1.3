@@ -170,6 +170,16 @@ margin-bottom:5px;
   .page-main-body{
     margin-top:10px;
     position:relative;
+    .page-main-left.fixed {
+    position: fixed;
+    top: 0;
+    background: white;
+    }
+    .page-main-left.absolute {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    }
   }
 
   width: 1200px;
@@ -360,7 +370,7 @@ margin-bottom:5px;
 
   /* page-main-right*/
 .page-main-right{
-  float: left;
+  float: right;
 width:970px;
   .page-main-right-section1{
 
@@ -448,6 +458,11 @@ width:970px;
                 a{
                   font-size:14px;
                   color:#333;
+                  width:200px;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  display:block;
 
                 }
               }
@@ -932,7 +947,7 @@ width:970px;
   }
   /* recommendation-daily*/
   .recommendation-daily{
-    width: 263px;
+    width: 270px;
     padding: 8px;
     margin-left: 10px;
     float: left;

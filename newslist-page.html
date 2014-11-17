@@ -306,26 +306,7 @@
                         </div>
 
                     </div>
-                    <div class="recommendation-daily clearfix">
-                        <div class="aoo-panel inner-panel">
-                            <h3><b>每日推荐/</b>New</h3>
-                            <p>
-                                <a href="" title="">
-                                    <img src="http://placehold.it/246x56">
-                                </a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷ddddddd</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                                <a href="" title="">电商交战已提前开打，营销方案层出不穷</a>
-                            </p>
-                        </div>
-                    </div>
+
 
 
 
@@ -880,5 +861,30 @@ $(function() {
   })
 });
 </script>
+<script>
+   window.addEventListener('scroll', function() {
+       var st = document.documentElement.scrollTop || document.body.scrollTop || 0;
+       var bt = $('.page-main-right')[0].getBoundingClientRect().top;
+       console.log(-bt);
+       console.log( $('.page-main-right')[0].scrollHeight - $('.page-main-left')[0].scrollHeight);
+
+       if (bt <= 0) {
+           $('.page-main-left').addClass('fixed');
+
+
+           if (-bt >= $('.page-main-right')[0].scrollHeight - $('.page-main-left')[0].scrollHeight) {
+               $('.page-main-left').removeClass('fixed');
+               $('.page-main-left').addClass('absolute');
+
+           } else {
+             $('.page-main-left').removeClass('absolute');
+           }
+       } else {
+           $('.page-main-left').removeClass('fixed');
+
+       }
+       console.log();
+   });
+   </script>
 
 </html>
