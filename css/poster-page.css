@@ -1063,6 +1063,7 @@ i.icon {
   width: 960px;
   padding: 5px 5px;
   padding-bottom: 0px;
+  font-family: "微软雅黑";
 }
 .page-header .page-header-sub-nav div {
   float: left;
@@ -1076,14 +1077,20 @@ i.icon {
   margin-right: 0;
 }
 .page-header .page-header-sub-nav div span {
-  color: #ff4a00;
   display: inline-block;
   margin-right: 10px;
+}
+.page-header .page-header-sub-nav div span, .page-header .page-header-sub-nav div span a {
+  color: #ff4a00;
+}
+.page-header .page-header-sub-nav div span a {
+  margin-right: 0px;
 }
 .page-header .page-header-sub-nav div a {
   display: inline-block;
   margin-right: 3px;
   font-size: 12px;
+  text-decoration: none;
 }
 
 /* recommend-brands*/
@@ -1246,7 +1253,7 @@ i.icon {
       width: 19.5%;
   } */
 }
-/*
+
 .bottom-contact-us {
   height: 51px;
   background: url(../images/bottom_contact_us.png) no-repeat left center;
@@ -1260,28 +1267,4 @@ i.icon {
 }
 .bottom-contact-us .leave-messages {
   margin-right: 10px;
-}*/
-
-.contact-us p{
-  padding:10px 0;
-}
-.footer_float_400_flbar{
-  position:fixed;
-  bottom:0px;
-  z-index:999;
-  height:60px;
-  background: #121212;
-  width:100%;
-}
-
-.footer_float_400_flbar_box{
-  background: url(../images/footer_float_400_bottom1.png) no-repeat top left;
-  height:1000px;
-  width: 1000px;
-  margin:0 auto;
-  padding:10px 0;
-}
-.footer_float_400_flbar_box a{
-  float:right;
-  margin-left:10px;
 }
