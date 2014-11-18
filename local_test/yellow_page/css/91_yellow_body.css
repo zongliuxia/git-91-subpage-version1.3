@@ -211,6 +211,30 @@
 .page-main-area .yellow-side-wrapper .side-sec-3 .billboard-content p {
   margin: 0;
 }
+.page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-images {
+  text-align: center;
+}
+.page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-project ul {
+  margin-left: 20px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-project ul li {
+  list-style-type: square;
+  color: #ff6600;
+  margin-top: 5px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-project ul li a {
+  display: inline-block;
+  width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #666;
+  position: relative;
+  top: 3px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-project ul li a:hover {
+  color: #ff6600;
+}
 
 /* yellow-bread-crumb*/
 .yellow-bread-crumb {

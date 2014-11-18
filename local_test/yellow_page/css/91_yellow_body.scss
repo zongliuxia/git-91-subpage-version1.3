@@ -245,6 +245,37 @@
 			  margin:0;
 			}
 		}
+		.side-sec-4{
+			.side-sec-4-images{
+				text-align:center;
+			}
+			.side-sec-4-project{
+				ul{
+					margin-left:20px;
+				}
+					ul li{
+						list-style-type:square;
+						color:#ff6600;
+						margin-top:5px;
+
+					}
+					ul li a{
+						display:inline-block;
+						  width:230px;
+						  overflow:hidden;
+						 text-overflow:ellipsis;
+						white-space:nowrap;
+						color:#666;
+						position:relative;
+						top:3px;
+
+					}
+					ul li a:hover{
+						color:#ff6600;
+					}
+
+			}
+		}
 	}
 }
 $page_width:1000px;
