@@ -1,3 +1,17 @@
+/* set box-sizing:border-box*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* 91 yellow page-main-area*/
 .page-main-area {
   width: 1000px;
@@ -14,4 +28,19 @@
   width: 272px;
   float: left;
   background-color: #fff;
+}
+
+/* yellow-bread-crumb*/
+.yellow-bread-crumb {
+  width: 1000px;
+  margin: 0px auto;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 38px;
+  color: #666;
+  border-bottom: 1px solid #ff4a00;
+}
+.yellow-bread-crumb a {
+  font-size: 12px;
+  color: #666;
 }
