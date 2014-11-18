@@ -20,7 +20,15 @@
 		//height: 1000px;
 		float: left;
 		background-color: #fff;
-		
+		.main-sec-1-2{
+			img{
+				margin-right: 24px;
+				margin-bottom: 16px;
+			}
+			img:nth-child(4n){
+				margin-right: 0px;
+			}
+		}
 	}
 	/* yellow-side-wrapper*/
 	.yellow-side-wrapper{

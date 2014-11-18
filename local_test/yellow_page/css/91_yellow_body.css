@@ -24,6 +24,13 @@
   float: left;
   background-color: #fff;
 }
+.page-main-area .yellow-body-wrapper .main-sec-1-2 img {
+  margin-right: 24px;
+  margin-bottom: 16px;
+}
+.page-main-area .yellow-body-wrapper .main-sec-1-2 img:nth-child(4n) {
+  margin-right: 0px;
+}
 .page-main-area .yellow-side-wrapper {
   width: 272px;
   float: right;
