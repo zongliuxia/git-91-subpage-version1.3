@@ -50,9 +50,11 @@
   background-color: #f9f9f9;
   padding: 10px 10px;
   border: 1px solid #e0e0e0;
+  border-bottom: none;
 }
 .page-main-area .yellow-side-wrapper .side-sec-2 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-3 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-4 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-5 .panel-body {
   border: 1px solid #e0e0e0;
+  padding: 10px;
 }
 .page-main-area .yellow-side-wrapper .side-sec-1 .side-sec-1-project h2 {
   color: #ff4a00;
@@ -67,6 +69,37 @@
 }
 .page-main-area .yellow-side-wrapper .side-sec-1 .side-sec-1-project .project-price {
   color: #ff4a00;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item {
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item .side-sec-2-item-images {
+  float: left;
+  width: 110px;
+  margin-right: 15px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item .side-sec-2-item-project {
+  float: left;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item .side-sec-2-item-project h1, .page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item .side-sec-2-item-project h2, .page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item .side-sec-2-item-project h3 {
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item h1 {
+  font-size: 16px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item h2 {
+  font-size: 14px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item h3 {
+  color: #666;
+  font-weight: normal;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .side-sec-2-item h3 span {
+  color: #ff6600;
 }
 .page-main-area .yellow-side-wrapper .side-sec-3 .panel-body {
   padding: 10px 10px 20px;

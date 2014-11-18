@@ -58,9 +58,11 @@
 			  background-color: $right_panel_bg_color;
 			  padding: 10px 10px;
 			  border: 1px solid $the_light_gray_color;
+			  border-bottom:none;
 			}
 			.panel-body{
 				border: 1px solid $the_light_gray_color;
+				padding:10px;
 			}
 		}
 		.side-sec-1{
@@ -82,6 +84,41 @@
 
 			}
 
+		}
+		.side-sec-2{
+			.side-sec-2-item{
+				color:#ff6600;
+				margin-bottom:10px;
+				.side-sec-2-item-images{
+					float: left;
+					width:110px;
+					margin-right:15px;
+				}
+				.side-sec-2-item-project{
+					float: left;
+					h1,h2,h3{
+						  width:120px;
+						  overflow:hidden;
+						 text-overflow:ellipsis;
+						white-space:nowrap;
+					}
+
+				}
+				h1{
+					font-size:16px;
+
+				}
+				h2{
+					font-size:14px;
+				}
+				h3{
+					color:#666;
+					font-weight:normal;
+					span{
+						color:#ff6600;
+					}
+				}
+			}
 		}
 		.side-sec-3{
 			.panel-body{
