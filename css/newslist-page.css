@@ -1505,16 +1505,22 @@ i.icon {
 }
 .page-main .page-main-right .page-main-right-section3 .block {
   float: left;
+  display: inline;
   border: 1px solid #ccc;
-  height: 325px;
 }
 .page-main .page-main-right .page-main-right-section3 .block1 {
   margin-right: 10px;
-  width: 690px;
+}
+.page-main .page-main-right .block1-inner {
+  width: 688px;
+  height: 323px;
 }
 .page-main .page-main-right .page-main-right-section3 .block2 {
   padding: 10px;
-  width: 267px;
+}
+.page-main .page-main-right .block2-inner {
+  width: 245px;
+  height: 303px;
 }
 .page-main .page-main-right .page-main-right-section3 .block2 hr {
   border: 0;
@@ -1522,16 +1528,13 @@ i.icon {
   height: 2px;
 }
 .page-main .page-main-right .page-main-right-section3 a {
-  padding-left: 5px;
+  line-height: 16px;
   margin-top: 10px;
   max-width: 250px;
   display: block;
 }
 .page-main .page-main-right .page-main-right-section3 a:before {
   content: '▪ ';
-}
-.page-main .page-main-right .page-main-right-section3 .a-none, .page-main .page-main-right .block1-main .a-first {
-  padding-left: 0;
 }
 .page-main .page-main-right .page-main-right-section3 .a-none:before, .page-main .page-main-right .block1-main .a-first:before {
   content: none;
@@ -1560,26 +1563,33 @@ i.icon {
   font-size: 14px;
 }
 .page-main .page-main-right .block1-list {
-  padding: 5px 50px 0 15px;
+  padding: 5px 0px 0 15px;
   float: left;
+  width: 300px;
+  margin-right: 40px;
 }
-.page-main .page-main-right .page-main-right-section3 .list2 {
-  padding-right: 46px;
+.page-main .page-main-right .block1-main .list2 {
+  margin-right: 0;
 }
 .page-main .page-main-right .block1-top {
   border-bottom: 1px solid #ccc;
   background: #F2F1F1;
   padding: 15px;
 }
-.page-main .page-main-right .block1-top h2, .page-main .page-main-right .block1-main img {
+.page-main .page-main-right .block1-top h2 {
+  float: left;
+  width: 100px;
+}
+.page-main .page-main-right .block1-main img {
+  width: 80px;
   float: left;
 }
 .page-main .page-main-right .block1-main .a-first {
-  width: 281px;
+  width: 290px;
   max-width: 300px;
 }
 .page-main .page-main-right .block1-top .top-h2-right {
-  margin-left: 250px;
+  margin-left: 240px;
 }
 .page-main .page-main-right .page-main-right-section4 {
   border: 1px solid #e2e2e2;
