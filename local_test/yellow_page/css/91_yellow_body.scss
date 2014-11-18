@@ -377,6 +377,23 @@ $page_block_grey_border:1px solid #e1e1e1;
 
 			}
 		}
+		.side-sec-5{
+			a{
+				padding:5px 10px;
+				display:inline-block;
+				background:#ff4a00;
+				color:#fff;
+				margin:5px 9px 7px;
+			}
+		}
+		.side-sec-6{
+			text-align:center;
+			span{
+				display:block;
+				color:#666;
+				margin-top:5px;
+			}
+		}
 	}
 }
 $page_width:1000px;

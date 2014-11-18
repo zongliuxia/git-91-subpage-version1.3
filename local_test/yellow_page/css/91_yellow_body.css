@@ -327,6 +327,21 @@
 .page-main-area .yellow-side-wrapper .side-sec-4 .side-sec-4-project ul li a:hover {
   color: #ff6600;
 }
+.page-main-area .yellow-side-wrapper .side-sec-5 a {
+  padding: 5px 10px;
+  display: inline-block;
+  background: #ff4a00;
+  color: #fff;
+  margin: 5px 9px 7px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-6 {
+  text-align: center;
+}
+.page-main-area .yellow-side-wrapper .side-sec-6 span {
+  display: block;
+  color: #666;
+  margin-top: 5px;
+}
 
 /* yellow-bread-crumb*/
 .yellow-bread-crumb {
