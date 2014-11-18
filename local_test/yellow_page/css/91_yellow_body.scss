@@ -1,0 +1,19 @@
+/* 91 yellow page-main-area*/
+.page-main-area{
+	width: 1000px;
+	margin: 0px auto;
+	/* yellow-body-wrapper*/
+	.yellow-body-wrapper{
+		width: 714px;
+		//height: 1000px;
+		float: left;
+		background-color: #fff;
+	}
+	/* yellow-side-wrapper*/
+	.yellow-side-wrapper{
+		width: 272px;
+		//height: 1000px;
+		float: left;
+		background-color: #fff;
+	}
+}
