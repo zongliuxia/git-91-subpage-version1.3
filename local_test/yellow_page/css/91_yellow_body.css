@@ -29,6 +29,9 @@
   float: right;
   background-color: #fff;
 }
+.page-main-area .yellow-side-wrapper .side-sec-1 {
+  border: 1px solid;
+}
 .page-main-area .yellow-side-wrapper .side-sec-3 .panel-body {
   padding: 10px 10px 20px;
   border: 1px solid #e0e0e0;
