@@ -1393,18 +1393,10 @@ margin-bottom:10px;
 .message-board-bg{
   z-index: 10;
   display: none;
-  /*width: 650px;
-  height:480px;*/
- /* background: url(../images/index/message.jpg) no-repeat top left;*/
+
   position:fixed;
   left: 50%;
   top: 50%;
   margin-left: -325px;
   margin-top: -240px;
 }
-/*.message-board-content{
-position:absolute;
-top: 132px;
-left: 200px;
-
-}*/
