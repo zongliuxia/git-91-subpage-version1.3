@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+
+body, div, li, ul, span, p, dl, dt, dd, ol  input{ background: none repeat scroll 0 0 transparent; font: 12px/150% 微软雅黑,Arial,Verdana,Lucida,Helvetica,sans-serif;-webkit-font-smoothing: antialiased;border: medium none;list-style: none outside none; margin: 0; padding: 0; vertical-align: baseline;}
+body { background-color: #F6F4EF;}
+h1, h2, h3, h4, h5, h6 { font-size: 12px; line-height: 150%; margin: 0; padding: 0;}
+img { border: medium none;}
+a { color: #333333; text-decoration: none; cursor:pointer;}
+a:hover { color: #c80000; text-decoration: underline;}
+.clear { clear: both; overflow:hidden;}
+.floatL { float: left; display:inline;}
+.floatR { float: right; display:inline; margin-left:-3px;}
+em { font-weight: 900;}
+strong { font-weight: 600;}
+.f12 { font-size: 12px;}
+.f12b { font-size: 12px; font-weight: bold;}
+.f14 { font-size: 14px;}
+.f14b { font-size: 14px; font-weight: bold;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f20 {font-size: 20px;}
+.space1{ clear: both; display: block; font-size: 1px; height: 1px;}
+.space3 { clear: both; display: block; font-size: 1px; height: 3px; overflow: hidden;}
+.space6 { clear: both; display: block; font-size: 1px; height: 6px; overflow: hidden;}
+.space7{ clear: both; display: block; font-size: 1px; height: 7px;}
+.space8 { clear: both; display: block; font-size: 1px; height: 8px; overflow: hidden;}
+.space10 { clear: both; display: block; font-size: 1px; height: 10px;}
+.space12 { clear: both; display: block; font-size: 1px; height: 12px;}
+.space13{ clear: both; display: block; font-size: 1px; height: 13px;}
+
+
+
+
+
+
+

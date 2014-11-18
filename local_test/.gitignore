@@ -1,5 +1,2 @@
 ﻿# Ignore everything in this directory
-*
-# Except this file
-!yellow_page/*
-!.gitignore
+soga_firefox/
