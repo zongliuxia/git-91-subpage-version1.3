@@ -29,8 +29,37 @@
   float: right;
   background-color: #fff;
 }
-.page-main-area .yellow-side-wrapper .side-sec-1 {
-  border: 1px solid;
+.page-main-area .yellow-side-wrapper .side-sec-1, .page-main-area .yellow-side-wrapper .side-sec-6 {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2, .page-main-area .yellow-side-wrapper .side-sec-3, .page-main-area .yellow-side-wrapper .side-sec-4, .page-main-area .yellow-side-wrapper .side-sec-5 {
+  margin-bottom: 10px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .panel-title, .page-main-area .yellow-side-wrapper .side-sec-3 .panel-title, .page-main-area .yellow-side-wrapper .side-sec-4 .panel-title, .page-main-area .yellow-side-wrapper .side-sec-5 .panel-title {
+  font-size: 14px;
+  color: #ff4a00;
+  background-color: #f9f9f9;
+  padding: 10px 10px;
+  border: 1px solid #e0e0e0;
+}
+.page-main-area .yellow-side-wrapper .side-sec-2 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-3 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-4 .panel-body, .page-main-area .yellow-side-wrapper .side-sec-5 .panel-body {
+  border: 1px solid #e0e0e0;
+}
+.page-main-area .yellow-side-wrapper .side-sec-1 .side-sec-1-project h2 {
+  color: #ff4a00;
+  background-color: #eaeaea;
+  padding: 5px 30px;
+  margin-top: 5px;
+}
+.page-main-area .yellow-side-wrapper .side-sec-1 .side-sec-1-project div {
+  margin: 5px 25px 0;
+  font-size: 14px;
+  color: #666666;
+}
+.page-main-area .yellow-side-wrapper .side-sec-1 .side-sec-1-project .project-price {
+  color: #ff4a00;
 }
 .page-main-area .yellow-side-wrapper .side-sec-3 .panel-body {
   padding: 10px 10px 20px;
