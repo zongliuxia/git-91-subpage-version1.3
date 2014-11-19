@@ -1,0 +1,117 @@
+
+.panel-style-02,
+.panel-style-03,
+.panel-style-04,
+.section-left,
+.section-middle,
+.section-right,
+.section-crosss-left,
+.section-cross-right {
+  /*相对html文件的路径,建议使用根路径*/
+  *behavior: url(/boxsizing.htc);
+}
+
+
+.slick-dots li {
+  float: left;
+}
+
+.link-group {
+  border-bottom: none !important;
+  padding-bottom: 11px;
+}
+
+.image-group {
+  border-bottom: none !important;
+}
+
+.link-row {
+  border-bottom: none !important;
+}
+
+.section-cross-right .image-group a {
+  width: 16%;
+}
+
+.section-03 .section-left a {
+  width: 48%;
+}
+
+.section-03 .section-cross-right a {
+  width: 16%;
+}
+
+.section-middle .image-group a {
+  width: 19%;
+}
+
+.section-middle .link-group a {
+  width: 19%;
+}
+
+.panel-style-04 .panel-body-right .row:nth-child(2),
+.panel-style-04 .panel-body-right .row:nth-child(3) {
+  margin-top: 10px;
+}
+
+.section-06 .section-middle .link-row {
+  margin-bottom: 15px;
+}
+
+.section-02 .panel-style-02 {
+  padding-bottom: 18px;
+}
+
+[class*="panel-header-sprite"] {
+  top: 0;
+}
+
+.category .panel-style-02 {
+  padding-bottom: 11px;
+}
+
+.billbord li {
+  padding-bottom: 6px;
+}
+
+.billbord li a {
+  float: left;
+}
+
+.sub-nav {
+  padding: 10px 20px;
+}
+
+.search-select {
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  // top: 1px;
+}
+
+.search-input {
+  float: left;
+  input {
+    border: 1px solid black;
+    padding: 1px 5px;
+    padding-bottom: 2px;
+  }
+
+  button {
+    padding: 1px 5px;
+  }
+}
+
+.footer-search {
+  form {
+    float: left;
+    overflow: hidden;
+    margin-left: 100px;
+  }
+
+  .hotwords {
+    float: left;
+  }
+}
+
+

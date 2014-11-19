@@ -1,0 +1,406 @@
+@charset"utf-8";
+@import"util";
+@import"base";
+@import"layout";
+@import"component";
+@import"sprite";
+/* wq-section-01*/
+
+.wq-section-01 {
+    background-color: #fff;
+    .wq-section-01-header {
+        border-bottom: 1px solid #e8e8e8;
+        padding: 15px 0 10px;
+    }
+    .wq-section-01-body {
+        padding: 15px 0;
+    }
+    .wq-section-01-header span {
+        color: #000;
+    }
+    .wq-section-01-header a {
+        padding: 0 5px;
+    }
+    .wq-section-01-body-description-left {
+        float: left;
+        width: 620px;
+    }
+    .wq-section-01-body-description-left img {
+        float: left;
+        margin-right: 10px;
+    }
+    .wq-section-01-body-description-left p {
+        width: 480px;
+        line-height: 24px;
+        margin: 0;
+    }
+    .wq-section-01-body-description-right {
+        float: right;
+        width: 447px;
+        margin-top: 10px;
+    }
+    .wq-section-01-body-description-right a {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .wq-section-01-body-description-right a:nth-child(3n) {
+        margin-right: 0;
+    }
+    .wq-section-01-body-nav {
+        margin-top: 15px;
+    }
+    .wq-section-01-body-nav-left {
+        float: left;
+        width: 120px;
+        margin-right: 10px;
+        background-color: #ebe7e6;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .wq-section-01-body-nav-left span{
+      display: block;
+      margin-bottom: 15px;
+      color:#000;
+    }
+    .wq-section-01-body-nav-left span:nth-child(3n) {
+        margin-bottom: 0;
+    }
+    .wq-section-01-body-nav-right {
+        float: left;
+        margin: 7px 0;
+    }
+    .wq-section-01-body-nav-right div {
+        /* margin: 10px 0; */
+
+        margin-bottom: 10px;
+        color: #666666;
+        font-size: 12px;
+    }
+    .wq-section-01-body-nav-right div:nth-child(3n) {
+        margin-bottom: 0;
+    }
+    .wq-section-01-body-nav-right span {
+        color: #fff;
+        font-size: 14px;
+        padding: 0 10px;
+        background-color: #f00;
+        border-radius: 10px;
+    }
+    .wq-section-01-body-nav-right a {
+        padding: 0 20px;
+    }
+}
+/* wq-section-02*/
+
+.wq-section-02 {
+    /* wq-section-02-left*/
+    margin-bottom:15px;
+    padding-bottom: 35px;
+    min-height: 1220px;
+    background-color: #fff;
+    .wq-section-02-left {
+        $side_soo_title_color: #ff4a00;
+        margin-top: 20px;
+        float: left;
+        width: 220px;
+        height: 1170px;
+        padding: 0px 20px;
+        border: 1px solid #e0e0e0;
+        .search {
+            form {
+              margin-top: 10px;
+              margin-bottom: 20px;
+                width: 100%;
+                background-color: $side_soo_title_color;
+            }
+            input {
+                width: 70%;
+                border: 1px solid $side_soo_title_color;
+                background-color: #fff8eb;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                height: 30px;
+                padding-left: 5px;
+            }
+            button {
+                width: 25%;
+                outline: 0;
+                border: 0px;
+                background-color: transparent;
+                color: #fff;
+
+            }
+        }
+        /* search box*/
+
+        .leftside-panel {
+            padding-bottom: 10px;
+            margin-bottom: 8px;
+            background: url(../images/left_panel_bottom_line.png) no-repeat center bottom;
+            /* reset p*/
+
+            p {
+                margin: 0px;
+            }
+            /* soo-title*/
+
+            .soo-title {
+                font-size: 14px;
+                color: $side_soo_title_color;
+                margin: 3px 0px;
+            }
+            /* soo-body*/
+
+            .soo-body {
+                line-height: 25px;
+                a {
+                    display: inline-block;
+                    color: #666666;
+                    font-size: 12px;
+                }
+            }
+            .so-hot {
+                font-size: 12px;
+                color: $side_soo_title_color;
+            }
+        }
+        /* leftside-panel*/
+
+        .part-4 {
+            a.text-block {
+                display: inline-block;
+                /* height: 19px; */
+
+                background-color: #ff4a00;
+                padding: 0px 8px;
+                font-size: 14px;
+                margin: 3px 0px;
+                color: #ffffff;
+            }
+        }
+        /* part-4*/
+
+        .part-5 {
+            background: none;
+            .news {
+                a {
+                    display: block;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -ms-text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+        /* .part-5*/
+    }
+    /* wq-section-02-right*/
+
+    .wq-section-02-right {
+        /**/
+
+        $i_want_consult_backcolor: #ff4a00;
+        width: 965px;
+        float: right;
+        .aoo-title {
+            font-size: 14px;
+            font-weight: bolder;
+            border-bottom: 2px solid #ff4a00;
+            .total {
+                float: right;
+            }
+            b {
+                color: red;
+            }
+        }
+        .aoo-body {
+            $gut_width: 10px;
+            $gut_height: 7px;
+            margin: 0px -($gut_width/2);
+            margin-top: $gut_height;
+            .list-item {
+                display: block;
+                width: 151px;
+                height: 180px;
+                float: left;
+                /* background-color: red; */
+
+                &:hover {
+                    text-decoration: none;
+                }
+                &:hover .notice-num {
+                    background: url(../images/red_heart_shape.png) no-repeat left center;
+                }
+                &:hover .consult-link {
+                    padding-left: 10px;
+                    /* padding-right: 1px; */
+
+                    transition: 300ms;
+                }
+                margin: $gut_height ($gut_width/2);
+                .boo-title {
+                    margin: 0px 3px;
+                    font-weight: bolder;
+                }
+                p {
+                    margin: 0px 5px;
+                    margin-bottom: 5px;
+                }
+                .notice-num {
+                    margin-left: 7px;
+                    background: url(../images/heart_shape.png) no-repeat left center;
+                    padding-left: 20px;
+                }
+                .consult-link {
+                    transition: 300ms;
+                    padding: 4px 6px;
+                    margin: 0px 5px;
+                    color: #fff;
+                    font-size: 12px;
+                    background-color: $i_want_consult_backcolor;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+/* wq-section-03*/
+.wq-section-03{
+  background-color:#fff;
+  padding:15px 0;
+  margin-bottom:15px;
+  .wq-section-03-header h5{
+     color:#f00;
+     margin:0;
+     padding:0 0 5px 15px;
+     font-size:14px;
+  }
+  .wq-section-03-header{
+    border-bottom:2px solid #ff4a00;
+  }
+  .wq-section-03-body{
+    padding-top:10px;
+  }
+  .wq-section-03-body a{
+    display:inline-block;
+margin-right:2px;
+  }
+  .wq-section-03-body a:nth-child(11n){
+    margin-right:0;
+  }
+  .wq-section-03-body-item{
+    margin-bottom:2px;
+  }
+  .wq-section-03-body-item:nth-child(4n){
+   margin-bottom:0;
+  }
+}
+
+/* wq-section-04*/
+  .wq-section-04{
+    background-color:#fff;
+    border-top:2px solid #ff4a00;
+    padding-top:15px;
+    .Preparatory-header h2,.Entrepreneurial-story-header h2,.wq-section-04-left-header h2,.wq-section-04-right-header h2{
+      margin:0;
+      color:#ff4a00;
+      font-size:16px;
+    }
+        .wq-section-04-left,.wq-section-04-right{
+          float: left;
+          width:210px;
+        }
+        .wq-section-04-middle{
+          float: left;
+          width: 760px;
+        }
+        .wq-section-04-left,.wq-section-04-right,.wq-section-04-middle{
+          border: 1px solid #efefef;
+          margin-right:10px;
+          padding:20px 20px 30px;
+        }
+        .wq-section-04-right{
+          margin-right:0;
+        }
+        .wq-section-04-left-header,.wq-section-04-right-header{
+          padding-bottom:10px;
+          background:url(../images/bg-bottom.png) no-repeat left bottom;
+        }
+        .Preparatory-header,.Entrepreneurial-story-header{
+          padding-bottom:10px;
+
+        }
+        .Preparatory{
+          width:330px;
+          float: left;
+        }
+        .Entrepreneurial-story{
+          width:370px;
+          float: right;
+        }
+        .wq-section-04-left-body a,.wq-section-04-right-body a{
+          display:block;
+          padding-top:9px;
+          letter-spacing:0.8px;
+        }
+        .wq-section-04-right-body a{
+         width: 160px;
+         overflow:hidden;
+         text-overflow:ellipsis;
+         white-space:nowrap;
+        }
+        .Preparatory-body-item-images{
+          float: left;
+          width:140px;
+          margin-right:10px;
+        }
+        .Preparatory-body-item-project{
+          float: left;
+          width:180px;
+        }
+        .Preparatory-body-item-project a{
+          display:block;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap;
+          width:160px;
+          letter-spacing:0.8px;
+          padding:4px 0;
+        }
+        .Preparatory-body-item{
+          margin-bottom:8px;
+        }
+        .Preparatory-body-item:nth-child(4n){
+          margin-bottom:0;
+        }
+        .Entrepreneurial-story-body-item{
+          margin-bottom:10px;
+        }
+        .Entrepreneurial-story-body-item:nth-child(3n){
+          margin-bottom:0;
+        }
+        .Entrepreneurial-story-body-item-images{
+          float: left;
+          width:140px;
+        }
+        .Entrepreneurial-story-body-item-text{
+          float: left;
+          width:205px;
+          padding:10px 0
+        }
+        .Entrepreneurial-story-body-item-text h3{
+          color:#000;
+          font-size:14px;
+          margin:0;
+        }
+        .Entrepreneurial-story-body-item-text p{
+         margin:5px 0 0;
+        }
+        .Entrepreneurial-story-body-item-text p a{
+          color:#ff4a00;
+        }
+
+  }
