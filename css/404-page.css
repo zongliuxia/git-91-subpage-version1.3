@@ -1021,7 +1021,7 @@ i.icon {
   display: block;
   background-color: #ff4a00;
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
 }
 .page-main .page-main-section2-header a {
   font-size: 16px;
