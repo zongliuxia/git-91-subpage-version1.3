@@ -1195,6 +1195,7 @@ i.icon {
   /* page-main-right-section4*/
 }
 .page-main .page-main-right .page-main-right-section2 {
+    margin-top: 10px;
   /* business-consulting-body-left*/
   /* business-consulting-body-right*/
 }
@@ -1203,6 +1204,7 @@ i.icon {
   width: 970px;
   background: url(../images/se2-header.jpg) no-repeat left top;
   text-indent: -999px;
+  margin: 0;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-left {
   float: left;
@@ -1274,7 +1276,7 @@ i.icon {
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-left .business-consulting-body-left-item .business-consulting-left-item-body .business-consulting-left-item-project ul li {
   list-style-type: square;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-left .business-consulting-body-left-item .business-consulting-left-item-body .business-consulting-left-item-project ul li a {
   font-size: 14px;
@@ -1283,7 +1285,10 @@ i.icon {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  display: block;
+  display: inline-block;
+  position: relative;
+  left: -4px;
+  top: 4px;
 }
 .page-main .page-main-right .page-main-right-section2 .business-consulting-body-left .business-consulting-body-left-item .business-consulting-left-item-body .business-consulting-left-item-hotproject a {
   display: inline-block;
@@ -1632,7 +1637,7 @@ i.icon {
   margin-left: 13px;
 }
 
-.page-main-right-section1 {
+ {
   /* itself style*/
   height: 290px;
   overflow: hidden;
@@ -1700,7 +1705,6 @@ i.icon {
 }
 .page-main-right-section1 .brands-focus .brands-focus-panel {
   width: 254px;
-  overflow: hidden;
   margin-left: 420px;
 }
 .page-main-right-section1 .brands-focus .brands-focus-panel p {

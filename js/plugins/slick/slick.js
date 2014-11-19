@@ -44,7 +44,7 @@
                 arrows: true,
                 asNavFor: null,
                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-                nextArrow: '<button type="button" class="slick-next">Next</button>',
+                nextArrow: '<button type="button" class="slick-next">换一组</button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
@@ -199,7 +199,7 @@
         _.$slideTrack.children(this.options.slide).remove();
 
         _.$slideTrack.append(_.$slides);
-        
+
         _.$slides.each(function(index, element) {
             $(element).attr("index",index);
         });
@@ -352,7 +352,7 @@
 
                 _.slideHandler(_.currentSlide - _.options.slidesToScroll);
                 if(asNavFor != null) asNavFor.slideHandler(asNavFor.currentSlide - asNavFor.options.slidesToScroll);
-                
+
             }
 
         } else {
@@ -422,11 +422,11 @@
             ':not(.slick-cloned)').addClass(
             'slick-slide');
         _.slideCount = _.$slides.length;
-        
+
         _.$slides.each(function(index, element) {
             $(element).attr("index",index);
         });
-        
+
         _.$slidesCache = _.$slides;
 
         _.$slider.addClass('slick-slider');
@@ -757,7 +757,7 @@
                 message: 'previous'
             }, _.changeSlide);
             _.$nextArrow.on('click.slick', {
-                message: 'next'
+                message: '换一组'
             }, _.changeSlide);
         }
 
@@ -810,7 +810,7 @@
         if(_.options.accessibility === true) {
             _.$list.on('keydown.slick', _.keyHandler);
         }
-        
+
         if(_.options.focusOnSelect === true) {
             $(_.options.slide, _.$slideTrack).on('click.slick', _.selectHandler);
         }
@@ -874,7 +874,7 @@
         } else if (event.keyCode === 39) {
             _.changeSlide({
                 data: {
-                    message: 'next'
+                    message: '换一组'
                 }
             });
         }
@@ -1024,7 +1024,7 @@
         _.updateDots();
 
         _.initDotEvents();
-        
+
         if(_.options.focusOnSelect === true) {
             $(_.options.slide, _.$slideTrack).on('click.slick', _.selectHandler);
         }
@@ -1311,19 +1311,19 @@
         }
 
     };
-    
+
     Slick.prototype.selectHandler = function(event) {
 
         var _ = this;
         var asNavFor = _.options.asNavFor != null ? $(_.options.asNavFor).getSlick() : null;
         var index = parseInt($(event.target).parent().attr("index"));
         if(!index) index = 0;
-        
+
         if(_.slideCount <= _.options.slidesToShow){
             return;
         }
         _.slideHandler(index);
-        
+
         if(asNavFor != null){
             if(asNavFor.slideCount <= asNavFor.options.slidesToShow){
                 return;
@@ -1707,7 +1707,7 @@
     $.fn.slickGoTo = function(slide) {
         var _ = this;
         return _.each(function(index, element) {
-            
+
             var asNavFor = element.slick.options.asNavFor != null ? $(element.slick.options.asNavFor) : null;
             if(asNavFor != null) asNavFor.slickGoTo(slide);
             element.slick.slideHandler(slide);
@@ -1721,7 +1721,7 @@
 
             element.slick.changeSlide({
                 data: {
-                    message: 'next'
+                    message: '换一组'
                 }
             });
 
@@ -1808,14 +1808,14 @@
 
         });
     };
-    
+
     $.fn.getSlick = function() {
         var s = null;
         var _ = this;
         _.each(function(index, element) {
             s = element.slick
         });
-        
+
         return s;
     };
 
