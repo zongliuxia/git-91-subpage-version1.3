@@ -934,11 +934,12 @@ i.icon {
   background-color: #fff;
 }
 .page-main .page-main-section1 {
-  padding: 20px 100px;
+  padding: 20px 200px;
 }
 .page-main .page-main-section1-left {
   float: left;
   width: 400px;
+  margin-right: 20px;
 }
 .page-main .page-main-section1-right {
   float: left;
