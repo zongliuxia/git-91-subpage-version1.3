@@ -1,6 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title></title>
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="css/91_yellow_body.css">
     <link href="css/liansuo_ini.css" rel="stylesheet" type="text/css">
     <script src="js/lib/jquery.1.9.0.min.js"></script>
-    
 </head>
 
 <body>
@@ -178,14 +176,14 @@
     <!-- project-nav-->
     <div class="project-nav">
         <a href="" title="" class="project-name">向佛瓦岗快餐</a>
-        <div class="some-navs">
-            <a href="" title="">项目首页</a>
-            <a href="" title="">加盟详情</a>
-            <a href="" title="">产品展示</a>
-            <a href="" title="">招商视频</a>
-            <a href="" title="">关于商家</a>
-            <a href="" title="">立即留言</a>
-            <a href="" title="">品牌资讯</a>
+        <div class="some-navs" data-refer-shown=".main-sec-1-1">
+            <a href="http://www.baidu.com" title="" data-refer-toshowele=".main-sec-1-1">项目首页</a>
+            <a href="###" title="" data-refer-toshowele=".main-sec-1-2">加盟详情</a>
+            <a href="http://www.baidu.com" title="">产品展示</a>
+            <a href="###" title="">招商视频</a>
+            <a href="###" title="">关于商家</a>
+            <a href="###" title="">立即留言</a>
+            <a href="###" title="" data-refer-toshowele=".main-sec-1-3">品牌资讯</a>
         </div>
     </div>
 
@@ -209,7 +207,7 @@
 
 
             <!-- 项目介绍-->
-            <div class="main-sec-1-1 dd-panel">
+            <div class="main-sec-1-1 dd-panel hidden-none">
                 <!-- 这里是项目介绍的地盘-->
                 <!-- begin,B57FD555A0B0A05EBD820C7AB71C42FD-->
                 <h2 class="dd-panel-title">项目介绍</h2>
@@ -222,7 +220,7 @@
 
             </div>
             <!-- 产品展示-->
-            <div class="main-sec-1-2 dd-panel">
+            <div class="main-sec-1-2 dd-panel hidden-none">
                 <!-- 这里是产品展示的地盘-->
                 <!-- begin,BDE7E268327BC876BC54161B93F65F87-->
                 <img src="http://placehold.it/152x113">
@@ -241,7 +239,7 @@
             </div>
 
             <!-- 品牌资讯-->
-            <div class="main-sec-1-3 dd-panel">
+            <div class="main-sec-1-3 dd-panel hidden-none">
                 <!-- 这里是产品展示的地盘-->
                 <!-- begin,06DDDB83C7A88E0E5FD09554E541F422-->
                 <h2 class="dd-panel-title">品牌资讯</h2>
@@ -576,7 +574,33 @@
             </div>
         </div>
     </div>
+<!-- bottom script-->
+<script type="text/javascript">
+    $(function() {
+    var $nav_wrapper = $(".project-nav");
+    var $all_navs = $nav_wrapper.find(".some-navs");
+    var nowshown_panel = $all_navs.data("refer-shown");
+    /* show the default panel the first time*/
+    $(nowshown_panel).removeClass("hidden-none");
+    $all_navs.find('a').each(function(index,ele){
+        $(ele).click(function(){
+            var forshown_panel=$(this).data("refer-toshowele");
+            if(forshown_panel){
+                nowshown_panel = $all_navs.data("refer-shown");
+                /* make it hidden*/
+                $(nowshown_panel).addClass("hidden-none");
+                /* make it shown*/
+                $(forshown_panel).removeClass("hidden-none");
+                /* set the data-refer-shown for next value-get*/
+                $all_navs.data("refer-shown",forshown_panel);
+                event.preventDefault();
+            }
+            
+        });
+    });
+});
 
+</script>
 </body>
 
 </html>
