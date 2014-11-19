@@ -1,0 +1,397 @@
+
+.hot {
+  color: red;
+}
+
+[class*="banner"] img {
+  width: 100%;
+}
+
+.search-select {
+  position: relative;
+  select {
+    border: 2px solid #ed2126;
+    padding: 3px 10px;
+    width: 125px;
+    outline: none;
+    color: #999999;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 2px;
+    bottom: 2px;
+    right: 25px;
+    width: 25px;
+    pointer-events: none;
+  }
+  &:after {
+   content: '';
+   position: absolute;
+   background: white url(../images/csg-53edac91c50bb.png) no-repeat top left;
+   background-position: 8px 8px;
+   right: 2px;
+   top: 2px;
+   bottom: 2px;
+   width: 25px;
+   border-left: 1px solid #ffa7a7;
+   pointer-events: none;
+  }
+}
+
+.search-input {
+  input {
+    width: 175px;
+    color: #999999;
+    border: 2px solid #ed2126;
+    padding: 4px 10px;
+    outline: none;
+  }
+
+  button {
+    background-color: #ed2126;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    padding-left: 25px;
+    color: white;
+    position: relative;
+    left: -4px;
+    &:before {
+     content: '';
+     position: absolute;
+     background: url(../images/csg-53edac91c50bb.png) no-repeat top left;
+     background-position: 0px -110px;
+     left: 10px;
+     top: 1px;
+     bottom: 2px;
+     width: 25px;
+     pointer-events: none;
+    }
+  }
+}
+
+@mixin hover-translateX() {
+  a {
+    overflow: hidden;
+  }
+
+  a > img {
+    transition: 300ms;
+    &:hover {
+      transform: translateX(-5px);
+    }
+  }
+}
+
+.rollover {
+  position: relative;
+  overflow: hidden;
+}
+
+.rollover-front,
+.rollover-back {
+  transition: 300ms;
+}
+
+.rollover-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rollover-back {
+  visibility: hidden;
+  transform: translateY(100%);
+}
+
+.rollover:hover {
+  .rollover-front {
+    visibility: hidden;
+    transform: translateY(-100%);
+  }
+  .rollover-back {
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.section-right .banner {
+  img {
+    padding-left: 10px;
+    width: auto;
+  }
+}
+
+[class*="panel-style"] {
+  background-color: white;
+  border: 1px solid $light-gray;
+}
+
+.panel-style-01 {
+  padding: 15px;
+}
+
+.panel-style-02 {
+  padding: 15px;
+  .panel-header {
+    @include clearfix;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    .title {
+      font-size: 16px;
+      margin: 0;
+      color: red;
+      float: left;
+
+      small {
+        color: black;
+        font-size: 1em;
+      }
+    }
+
+    .action {
+      float: right;
+      position: relative;
+      top: 6px;
+    }
+  }
+
+  .panel-body {
+    padding: 10px 0;
+  }
+}
+
+
+.panel-style-03 {
+  padding: 15px;
+  border-top: 2px solid red;
+  .panel-header {
+    @include clearfix;
+    margin: -15px;
+    margin-bottom: 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e1e1e1;
+    .icon {
+      float: left;
+      top: 1px;
+    }
+
+    .title {
+      padding: 10px 30px;
+      float: left;
+      font-size: 16px;
+      margin: 0;
+      position: relative;
+      border-right: 1px solid #e1e1e1;
+      top: 1px;
+      @include font-color(#333333);
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &.active {
+        background-color: white;
+        color: red;
+        border: none;
+
+        &:after {
+          content: '';
+          width: 0;
+          height: 0;
+          display: block;
+          position: absolute;
+          border-left: 5px solid #efefef;
+          border-bottom: 20px solid #efefef;
+          border-right: 5px solid transparent;
+          border-top: 21px solid transparent;
+          right: -10px;
+          top: 0;
+        }
+
+      }
+    }
+
+    .action {
+      float: right;
+      margin-right: 15px;
+      position: relative;
+      top: 15px;
+    }
+  }
+
+  .panel-body {
+    padding: 10px 0;
+  }
+}
+
+
+.panel-style-04 {
+  padding: 15px;
+
+  .panel-header {
+    @include clearfix;
+    padding-bottom: 15px;
+
+    .title {
+      font-size: 16px;
+      margin: 0;
+      float: left;
+      color: #333333;
+
+      small {
+        display: inline-block;
+        background: red;
+        font-size: 12px;
+        border-radius: 3px;
+        padding: 3px 5px;
+        position: relative;
+        top: -1px;
+
+        a {
+          color: white;
+        }
+      }
+    }
+
+    .action {
+      float: right;
+      position: relative;
+      top: 3px;
+      a {
+        margin-right: 5px;
+        &:after {
+          display: inline-block;
+          content: '|';
+          margin-left: 8px;
+        }
+
+        &:last-child {
+          margin-right: 0;
+          &:after {
+            content: '';
+          }
+        }
+      }
+    }
+  }
+
+  .panel-body {
+    .panel-body-left {
+      float: left;
+      width: 205px;
+      margin-right: 9px;
+
+      a {
+        position: relative;
+        display: block;
+      }
+
+      img {
+        display: block;
+      }
+
+      .cover {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+        background-color: rgba(black, 0.5);
+        color: white;
+        padding: 15px 20px;
+
+        div:first-child {
+          font-size: 24px;
+        }
+
+        div:last-child {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .panel-body-right {
+      float: left;
+      width: 754px;
+
+      a {
+        position: relative;
+        float: left;
+        margin-right: 11px;
+        margin-bottom: 10px;
+
+        &:nth-child(4n) {
+          margin-right: 0;
+        }
+      }
+
+      img {
+        display: block;
+      }
+
+      .cover {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+        background-color: rgba(black, 0.5);
+        color: white;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.pin-left, .pin-right {
+  position: fixed;
+  top: 210px;
+  z-index: 999;
+}
+
+.pin-left {
+  left: 0;
+}
+
+.pin-right {
+  right: 0;
+}
+
+.side-ad {
+  background-color: white;
+  border: 1px solid red;
+
+  &.hide {
+    left: -97px;
+  }
+
+  img {
+    display: block;
+  }
+
+  .toggle {
+    border: none;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    width: 25px;
+    text-align: center;
+    outline: none;
+  }
+
+  &.pin-right {
+    .toggle {
+      right: auto;
+      left: -25px;
+    }
+  }
+
+  &.pin-right.hide {
+    left: auto;
+    right: -97px;
+  }
+}
