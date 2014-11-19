@@ -44,7 +44,7 @@
                 arrows: true,
                 asNavFor: null,
                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-                nextArrow: '<button type="button" class="slick-next">换一组</button>',
+                nextArrow: '<button type="button" class="slick-next">next</button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
@@ -757,7 +757,7 @@
                 message: 'previous'
             }, _.changeSlide);
             _.$nextArrow.on('click.slick', {
-                message: '换一组'
+                message: 'next'
             }, _.changeSlide);
         }
 
@@ -874,7 +874,7 @@
         } else if (event.keyCode === 39) {
             _.changeSlide({
                 data: {
-                    message: '换一组'
+                    message: 'next'
                 }
             });
         }
@@ -1721,7 +1721,7 @@
 
             element.slick.changeSlide({
                 data: {
-                    message: '换一组'
+                    message: 'next'
                 }
             });
 
