@@ -1100,6 +1100,16 @@ i.icon {
 .page-main .fixed {
   width: 178px;
 }
+.wq-section-02-left.fixed {
+    position: fixed;
+    top: 0;
+    background: white;
+}
+.wq-section-02-left.absolute{
+  position:absolute;
+  bottom:15px;
+  top:auto;
+}
 .page-main .page-main-left {
   float: left;
   width: 220px;

@@ -932,6 +932,7 @@ i.icon {
 /* page-main*/
 .page-main .page-main-bgcolor {
   background-color: #fff;
+  padding-bottom: 40px;
 }
 .page-main .page-main-section1 {
   padding: 20px 200px;
@@ -943,7 +944,7 @@ i.icon {
 }
 .page-main .page-main-section1-right {
   float: left;
-  margin-top: 85px;
+  margin-top: 80px;
 }
 .page-main .page-main-section1-right h1, .page-main .page-main-section1-right h2, .page-main .page-main-section1-right h3, .page-main .page-main-section1-right h4 {
   font-weight: normal;
@@ -962,19 +963,25 @@ i.icon {
   color: #000;
 }
 .page-main .page-main-section1-right h4 {
-  margin-top: 25px;
+  margin-top: 45px;
   margin-bottom: 5px;
   color: #0b72a4;
   font-size: 14px;
 }
 .page-main .page-main-section1-right .page-section1-right-input input {
-  border: 1px solid #cccccc;
+  border: 1px solid #ff4b00;
   padding: 5px;
-  width: 250px;
-  background-image: url(../images/page-02.jpg);
+  width: 220px;
   background-repeat: no-repeat;
   background-position: 98% 60%;
-  margin-right: 10px;
+  outline:none;
+}
+.page-section1-right-input button{
+  padding: 6px 10px;
+  background-color:#ff4b00;
+  color:#fff;
+  border:none;
+  outline:none;
 }
 .page-main .page-main-section1-right .page-section1-right-input a {
   color: #0b72a4;
@@ -985,7 +992,7 @@ i.icon {
 }
 .page-main .page-main-section1-right .page-section1-right-search a {
   display: inline-block;
-  color: #0b72a4;
+  color: #ff4b00;
   margin-right: 25px;
 }
 .page-main .page-main-section1-right .page-section1-right-search .icon-search {
@@ -999,9 +1006,14 @@ i.icon {
   height: 12px;
 }
 .page-main .page-main-section2 {
-  margin-top: 20px;
-  padding: 0 10px 50px;
+
+  padding: 0 0 104px;
   position: relative;
+
+
+  border-bottom: 2px solid #ff4b00;
+
+  margin:20px 10px 0;
 }
 .page-main .page-main-section2 .change-next {
   position: absolute;
@@ -1023,18 +1035,18 @@ i.icon {
 .page-main .page-main-section2-header h1 {
   float: left;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 72px;
   margin-left: 10px;
   font-size: 22px;
   font-weight: normal;
-  color: #ff4a00;
+  color: #ff4b00;
 }
 .page-main .page-main-section2-header h1:before {
   content: "";
   width: 110px;
   height: 2px;
   display: block;
-  background-color: #ff4a00;
+  background-color: #ff4b00;
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -1043,7 +1055,7 @@ i.icon {
   font-size: 16px;
   display: inline-block;
   margin-top: 8px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 .page-main .page-main-section2-header .more {
   float: right;
@@ -1069,19 +1081,27 @@ i.icon {
   width: 165px;
   margin-top: 10px;
 }
-.page-main .page-main-section2-body .section2-body-item a {
+.page-main .page-main-section2-body .section2-body-item .consult-link {
   padding: 5px;
   background-color: #ccc;
   width: 80px;
   margin-left: 40px;
   margin-top: 5px;
 }
-.page-main .page-main-section2-body .section2-body-item a:hover {
+.page-main .page-main-section2-body .section2-body-item .consult-link:hover {
   color: #fff;
   background-color: #ff4a00;
 }
 .page-main .page-main-section2-body .slick-dots {
   bottom: -70px;
+}
+.slick-dots li button:before{
+  color: #9a9a9a !important;
+ opacity:1 !important;
+}
+.slick-dots li.slick-active button:before{
+  color: #ff4b00 !important;
+  opacity: 1 !important;
 }
 .page-main .page-main-section3 {
   padding: 30px 10px;
